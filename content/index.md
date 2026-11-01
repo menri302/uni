@@ -15,3 +15,7 @@ Alle Kapitel findest du links in der Seitenleiste. Mit der Suche oben kannst du 
 - [[01 Wintersemester 2026/Finance und Investment/00 Overview|Finance und Investment]]
 - [[01 Wintersemester 2026/Grundlagen der Makroökonomik/00 Formelsammlung|Grundlagen der Makroökonomik]]
 - [[01 Wintersemester 2026/Grundlagen der Mikroökonomik/01 Einführung|Grundlagen der Mikroökonomik]]
+
+## 02 Sommersemester 2027
+
+- [[02 Sommersemester 2027/Data Science 1/01 Einführung|Data Science 1]]
