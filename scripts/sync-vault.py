@@ -20,10 +20,12 @@ VAULT = Path.home() / "Library/Mobile Documents/iCloud~md~obsidian/Documents/hom
 UNI = VAULT / "01 Universität"
 ATTACHMENTS = VAULT / "03 Sonstige/Anhaenge"
 SUBFOLDER = "Zusammenfassung"
-# Fächer, die auf der Website anders heißen sollen als im Vault ("Vault-Name": "Website-Name")
-DISPLAY_NAMES = {
-    "Analysis für WiWi": "Analysis",
+# Fächer, die NICHT auf die Website sollen (Ordnername wie im Vault)
+EXCLUDE = {
+    "Analysis für WiWi",
 }
+# Fächer, die auf der Website anders heißen sollen als im Vault ("Vault-Name": "Website-Name")
+DISPLAY_NAMES = {}
 
 QUARTZ = Path(__file__).resolve().parent.parent
 CONTENT = QUARTZ / "content"
@@ -165,6 +167,7 @@ def find_sources():
     sources = [
         s for s in sorted(UNI.rglob(SUBFOLDER))
         if s.is_dir() and ".obsidian" not in s.parts and any(s.rglob("*.md"))
+        and nfc(s.parent.name) not in EXCLUDE
     ]
     if not sources:
         sys.exit(
