@@ -12,6 +12,7 @@ Aufruf:  python3 scripts/sync-vault.py
 import os
 import re
 import shutil
+import sys
 import unicodedata
 from pathlib import Path
 
@@ -151,13 +152,31 @@ def write_index(courses):
     (CONTENT / "index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def find_sources():
+    """Alle Zusammenfassung-Ordner; bricht ab, statt eine leere Website zu erzeugen."""
+    try:
+        os.listdir(UNI)
+    except OSError as error:
+        sys.exit(f"Abbruch: Vault-Ordner nicht lesbar ({error}). Es wurde nichts verändert.")
+    sources = [
+        s for s in sorted(UNI.rglob(SUBFOLDER))
+        if s.is_dir() and ".obsidian" not in s.parts and any(s.rglob("*.md"))
+    ]
+    if not sources:
+        sys.exit(
+            f"Abbruch: Keine Notizen in '{SUBFOLDER}'-Ordnern unter {UNI} gefunden. "
+            "Es wurde nichts verändert und nichts hochgeladen.\n"
+            "Tipp: Skript im normalen Terminal starten, nicht mit '!' im Claude-Chat."
+        )
+    return sources
+
+
 def main():
+    sources = find_sources()
     clean_content()
     notes = []
     courses = []
-    for source in sorted(UNI.rglob(SUBFOLDER)):
-        if not source.is_dir() or ".obsidian" in source.parts:
-            continue
+    for source in sources:
         # .../01 Universität/<Semester>/<Fach>/Zusammenfassung -> content/<Semester>/<Fach>/
         # Umlaute in Pfaden einheitlich als NFC (macOS liefert teils NFD), sonst finden Links sie nicht
         course_rel = Path(nfc(str(source.parent.relative_to(UNI))))
