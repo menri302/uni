@@ -1,3 +1,21 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Dunkelgrüner Text und grüne Links statt der Farben aus @quartz-themes/core
+// (das Theme überschreibt die Farben aus quartz.config.yaml)
+:root,
+:root body {
+  --text-green: #14432f;
+  --accent-green: #016f3c;
+
+  --dark: var(--text-green) !important;
+  --darkgray: var(--text-green) !important;
+  --text-normal: var(--text-green) !important;
+  --secondary: var(--accent-green) !important;
+  --link-color: var(--accent-green) !important;
+  --link-color-hover: var(--text-green) !important;
+  --link-external-color: var(--accent-green) !important;
+  --text-accent: var(--accent-green) !important;
+  --text-accent-hover: var(--text-green) !important;
+}

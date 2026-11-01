@@ -19,11 +19,19 @@ SUBFOLDER = "Zusammenfassung"
 QUARTZ = Path(__file__).resolve().parent.parent
 CONTENT = QUARTZ / "content"
 KEEP = {"index.md"}  # Dateien in content/, die nicht überschrieben werden
+# Hier parkt `npx quartz sync` den content-Ordner; bei Abbruch bleibt er dort liegen
+CONTENT_CACHE = QUARTZ / ".quartz-cache" / "content-cache"
 
 EMBED = re.compile(r"!\[\[([^\]]+?)\]\]")
 
 
 def clean_content():
+    if not CONTENT.exists():
+        if CONTENT_CACHE.is_dir():
+            print("content-Ordner aus abgebrochenem Sync wiederhergestellt.")
+            shutil.move(CONTENT_CACHE, CONTENT)
+        else:
+            CONTENT.mkdir()
     for item in CONTENT.iterdir():
         if item.name in KEEP:
             continue
