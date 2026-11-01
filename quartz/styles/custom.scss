@@ -19,3 +19,32 @@
   --text-accent: var(--accent-green) !important;
   --text-accent-hover: var(--text-green) !important;
 }
+
+// Keine rechte Seitenleiste (Backlinks stehen unter dem Artikel):
+// der Inhalt nutzt die ganze Breite neben dem Explorer
+.page > #quartz-body {
+  @media all and ($desktop) {
+    grid-template-columns: #{$sidePanelWidth} minmax(0, 1fr);
+    grid-template-areas:
+      "grid-sidebar-left grid-header"
+      "grid-sidebar-left grid-center"
+      "grid-sidebar-left grid-footer";
+  }
+
+  & .sidebar.right {
+    display: none;
+  }
+}
+
+.page {
+  max-width: none;
+}
+
+// Tabellen über die volle Textbreite
+article .table-container {
+  width: 100%;
+
+  & > table {
+    width: 100%;
+  }
+}
