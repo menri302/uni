@@ -11,7 +11,7 @@ share_updated: 2026-11-01T18:50:16+01:00
 
 ## 1. It is only possible to compare or combine values at the same point in time
 
-[[02 Financial Decision Making and the Law of One Price#Would you take 100.000USD now or 105.000USD in a year?|Would you take $100.000 now or $105.000 in a year]]
+[[01 Wintersemester 2026/Finance und Investment/02 Financial Decision Making and the Law of One Price#Would you take 100.000USD now or 105.000USD in a year?|Would you take $100.000 now or $105.000 in a year]]
 
 ## 2. To move cash flows **forward** in time, you must **compound** them
 

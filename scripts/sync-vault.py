@@ -1,28 +1,40 @@
 #!/usr/bin/env python3
 """Kopiert die Zusammenfassungen aus dem Obsidian-Vault in den Quartz-content-Ordner.
 
-Veröffentlicht wird NUR: <Semester>/<Fach>/Zusammenfassung/*.md
+Veröffentlicht wird NUR der Inhalt jedes Ordners namens "Zusammenfassung"
+irgendwo unter "01 Universität" (z. B. <Semester>/<Fach>/Zusammenfassung/),
 plus die Bilder/Anhänge, die in diesen Notizen eingebettet sind (![[...]]).
 Alles andere (Folien, Aufgaben, Anki, ToDos, ...) bleibt privat.
+Die Startseite (content/index.md) wird mit allen Fächern neu erzeugt.
 
 Aufruf:  python3 scripts/sync-vault.py
 """
+import os
 import re
 import shutil
+import unicodedata
 from pathlib import Path
 
 VAULT = Path.home() / "Library/Mobile Documents/iCloud~md~obsidian/Documents/home"
-SEMESTER = VAULT / "01 Universität/01 Wintersemester 2026"
+UNI = VAULT / "01 Universität"
 ATTACHMENTS = VAULT / "03 Sonstige/Anhaenge"
 SUBFOLDER = "Zusammenfassung"
 
 QUARTZ = Path(__file__).resolve().parent.parent
 CONTENT = QUARTZ / "content"
-KEEP = {"index.md"}  # Dateien in content/, die nicht überschrieben werden
+INDEX_INTRO = """---
+title: Uni-Zusammenfassungen
+---
+
+Zusammenfassungen zum **B.Sc. Volkswirtschaftslehre** an der Universität Münster.
+
+Alle Kapitel findest du links in der Seitenleiste. Mit der Suche oben kannst du nach Begriffen suchen.
+"""
 # Hier parkt `npx quartz sync` den content-Ordner; bei Abbruch bleibt er dort liegen
 CONTENT_CACHE = QUARTZ / ".quartz-cache" / "content-cache"
 
 EMBED = re.compile(r"!\[\[([^\]]+?)\]\]")
+LINK = re.compile(r"(?<!!)\[\[([^\]|#\\]+)(#[^\]|\\]*)?((?:\\?\|)[^\]]*)?\]\]")
 
 
 def clean_content():
@@ -33,8 +45,6 @@ def clean_content():
         else:
             CONTENT.mkdir()
     for item in CONTENT.iterdir():
-        if item.name in KEEP:
-            continue
         if item.is_dir():
             shutil.rmtree(item)
         else:
@@ -88,20 +98,81 @@ def find_attachment(name):
     return None
 
 
+def nfc(text):
+    return unicodedata.normalize("NFC", text)
+
+
+def rewrite_links(notes):
+    """Schreibt [[Notiz]]-Links auf den vollen Pfad in content/ um.
+
+    Quartz löst kurze Links nicht immer auf. Links auf Notizen, die nicht
+    veröffentlicht werden, werden zu normalem Text (statt toter Links).
+    """
+    by_stem = {}
+    for note in notes:
+        by_stem.setdefault(note.stem, []).append(note)
+
+    for note in notes:
+        def replace(match):
+            target, heading, alias = match.group(1), match.group(2) or "", match.group(3) or ""
+            candidates = by_stem.get(nfc(Path(target.strip()).stem), [])
+            if not candidates:
+                label = re.sub(r"^\\?\|", "", alias) if alias else Path(target).stem
+                return label
+            # Pfad im Link (z. B. "01 Universität/<Semester>/<Fach>/Zusammenfassung/<Notiz>")
+            # entscheidet; sonst bei gleichen Namen die Notiz aus demselben Fach bevorzugen
+            wanted = "/".join(p for p in Path(nfc(target.strip())).parts if p not in (UNI.name, SUBFOLDER))
+            best = next(
+                (c for c in candidates if c.relative_to(CONTENT).with_suffix("").as_posix().endswith(wanted)),
+                next((c for c in candidates if c.parent == note.parent), candidates[0]),
+            )
+            path = best.relative_to(CONTENT).with_suffix("").as_posix()
+            return f"[[{path}{heading}{alias}]]"
+
+        text = note.read_text(encoding="utf-8")
+        new = LINK.sub(replace, text)
+        if new != text:
+            stat = note.stat()
+            note.write_text(new, encoding="utf-8")
+            os.utime(note, (stat.st_atime, stat.st_mtime))
+
+
+def write_index(courses):
+    """Startseite mit allen Fächern, gruppiert nach Semester (Ordner über dem Fach)."""
+    lines = [INDEX_INTRO]
+    current_group = None
+    for course_rel, first_note in courses:
+        group = str(course_rel.parent) if course_rel.parent != Path(".") else "Fächer"
+        if group != current_group:
+            lines.append(f"\n## {group}\n")
+            current_group = group
+        link = (course_rel / first_note.stem).as_posix()
+        lines.append(f"- [[{link}|{course_rel.name}]]")
+    (CONTENT / "index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def main():
     clean_content()
     notes = []
-    for course in sorted(SEMESTER.iterdir()):
-        source = course / SUBFOLDER
-        if not source.is_dir():
+    courses = []
+    for source in sorted(UNI.rglob(SUBFOLDER)):
+        if not source.is_dir() or ".obsidian" in source.parts:
             continue
-        target = CONTENT / course.name
-        target.mkdir(parents=True, exist_ok=True)
-        for note in sorted(source.glob("*.md")):
-            text = fix_math_dollars(note.read_text(encoding="utf-8"))
-            (target / note.name).write_text(text, encoding="utf-8")
-            shutil.copystat(note, target / note.name)
-            notes.append(target / note.name)
+        # .../01 Universität/<Semester>/<Fach>/Zusammenfassung -> content/<Semester>/<Fach>/
+        # Umlaute in Pfaden einheitlich als NFC (macOS liefert teils NFD), sonst finden Links sie nicht
+        course_rel = Path(nfc(str(source.parent.relative_to(UNI))))
+        course_notes = []
+        for note in sorted(source.rglob("*.md")):
+            target = CONTENT / course_rel / nfc(str(note.relative_to(source)))
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(fix_math_dollars(note.read_text(encoding="utf-8")), encoding="utf-8")
+            shutil.copystat(note, target)
+            course_notes.append(target)
+        if course_notes:
+            notes.extend(course_notes)
+            courses.append((course_rel, course_notes[0]))
+    rewrite_links(notes)
+    write_index(courses)
 
     embeds = set()
     for note in notes:
@@ -121,7 +192,7 @@ def main():
         attachment_dir.mkdir(exist_ok=True)
         shutil.copy2(path, attachment_dir / path.name)
 
-    print(f"{len(notes)} Notizen und {len(embeds) - len(missing)} Anhänge kopiert.")
+    print(f"{len(courses)} Fächer, {len(notes)} Notizen und {len(embeds) - len(missing)} Anhänge kopiert.")
     for name in missing:
         print(f"  Anhang nicht gefunden: {name}")
 

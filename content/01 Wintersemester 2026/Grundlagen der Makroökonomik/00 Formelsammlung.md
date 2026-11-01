@@ -1,10 +1,10 @@
-Teil von [[Grundlagen der Makroökonomik]]
+Teil von Grundlagen der Makroökonomik
 
 # Formelsammlung Makro
 
 ---
 
-## 1 Grundbegriffe ([[01 Untersuchungsgegenstand der Makroökonomik|Kap. 01]])
+## 1 Grundbegriffe ([[01 Wintersemester 2026/Grundlagen der Makroökonomik/01 Untersuchungsgegenstand der Makroökonomik|Kap. 01]])
 
 | Größe | Formel | Hinweis |
 | --- | --- | --- |
@@ -14,7 +14,7 @@ Teil von [[Grundlagen der Makroökonomik]]
 
 ---
 
-## 2 Einkommenskonzepte ([[02 Grundzüge der Inlandsproduktion|Kap. 02]])
+## 2 Einkommenskonzepte ([[01 Wintersemester 2026/Grundlagen der Makroökonomik/02 Grundzüge der Inlandsproduktion|Kap. 02]])
 
 | Größe | Berechnung |
 | --- | --- |
@@ -34,7 +34,7 @@ Teil von [[Grundlagen der Makroökonomik]]
 
 ---
 
-## 3 Nominales vs. reales BIP ([[02 Grundzüge der Inlandsproduktion|Kap. 02]])
+## 3 Nominales vs. reales BIP ([[01 Wintersemester 2026/Grundlagen der Makroökonomik/02 Grundzüge der Inlandsproduktion|Kap. 02]])
 
 | Größe | Formel | Bedeutung |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ $$
 
 ---
 
-## 4 Gütermarkt ([[03 Gütermarkt|Kap. 03]])
+## 4 Gütermarkt ([[01 Wintersemester 2026/Grundlagen der Makroökonomik/03 Gütermarkt|Kap. 03]])
 
 **Annahmen:** geschlossene VW ($X = IM = 0$), keine Abschreibungen, keine indirekten Steuern/Subventionen → BIP = BNE = NIP = NNE = VE = $Y$
 
