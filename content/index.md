@@ -9,7 +9,7 @@ Alle Kapitel findest du links in der Seitenleiste. Mit der Suche oben kannst du 
 
 ## 01 Wintersemester 2026
 
-- [[01 Wintersemester 2026/Analysis für WiWi/00 Grundlagen|Analysis für WiWi]]
+- [[01 Wintersemester 2026/Analysis/00 Grundlagen|Analysis]]
 - [[01 Wintersemester 2026/Einführung in die BWL/01 Appetithappen|Einführung in die BWL]]
 - [[01 Wintersemester 2026/Einführung in die VWL/01 Einführung|Einführung in die VWL]]
 - [[01 Wintersemester 2026/Finance und Investment/00 Overview|Finance und Investment]]

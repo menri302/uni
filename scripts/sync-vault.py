@@ -20,6 +20,10 @@ VAULT = Path.home() / "Library/Mobile Documents/iCloud~md~obsidian/Documents/hom
 UNI = VAULT / "01 Universität"
 ATTACHMENTS = VAULT / "03 Sonstige/Anhaenge"
 SUBFOLDER = "Zusammenfassung"
+# Fächer, die auf der Website anders heißen sollen als im Vault ("Vault-Name": "Website-Name")
+DISPLAY_NAMES = {
+    "Analysis für WiWi": "Analysis",
+}
 
 QUARTZ = Path(__file__).resolve().parent.parent
 CONTENT = QUARTZ / "content"
@@ -180,6 +184,7 @@ def main():
         # .../01 Universität/<Semester>/<Fach>/Zusammenfassung -> content/<Semester>/<Fach>/
         # Umlaute in Pfaden einheitlich als NFC (macOS liefert teils NFD), sonst finden Links sie nicht
         course_rel = Path(nfc(str(source.parent.relative_to(UNI))))
+        course_rel = course_rel.with_name(DISPLAY_NAMES.get(course_rel.name, course_rel.name))
         course_notes = []
         for note in sorted(source.rglob("*.md")):
             target = CONTENT / course_rel / nfc(str(note.relative_to(source)))
