@@ -40,6 +40,11 @@
   max-width: none;
 }
 
+// Callouts ohne Symbol (Stift, Käfer, ...) vor dem Titel
+.callout .callout-title > .callout-icon {
+  display: none;
+}
+
 // Tabellen über die volle Textbreite
 article .table-container {
   width: 100%;
