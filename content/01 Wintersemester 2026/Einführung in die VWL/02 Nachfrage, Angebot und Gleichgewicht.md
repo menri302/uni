@@ -90,6 +90,13 @@ $$
 > [!NOTE] Willingness to Accept
 > Die WTA ist der Mindestpreis, den ein Anbieter erhalten muss, um eine weitere Einheit des gutes Anzubieten (entspricht den Grenzkosten)
 
+> [!BUG] Angebotskurve = Grenzkostenkurve
+> Im Optimum produziert der Anbieter alle Einheiten, für die ${}P \geq mc_{n}{}$ → die Grenzkosten der letzten produzierten Einheit = P
+> --> Grafisch entspricht die individuelle Angebotskurve der **Grenzkostenkurve**
+
+
+**Begründung steigender Grenzkosten:** z.B. Entlohnung von **Überstunden** oder höhere **Abschreibungen** durch stärkere Nutzung (Abnutzung) der **Maschinen**
+
 
 > [!NOTE] Marktangebot
 > ![[Pasted image 20261022141845.png]]
@@ -147,3 +154,12 @@ Die Analyse folgt **drei Schritten**:
 > 3. Der Nachfrageüberhang **erhöht den Gleichgewichtspreis**, die neue **Gleichgewichtsmenge ist geringer**
 > 
 > --> ${}P^*\uparrow{}$, ${}Q^*\downarrow{}$
+
+### Verschiebung der Nachfragekurve
+> [!EXAMPLE] Beispiel Umweltbewusstsein & Öl
+> Politischer Aktivismus erhöht das Umweltbewusstsein der Bevölkerung.
+> 1. Betroffen ist die **Nachfragekurve**: Die **ZB** für emissionsintensive Güter wie Öl **sinkt**
+> 2. Die Nachfragekurve verschiebt sich **nach innen** (links). Beim **ursprünglichen** Gleichgewichtspreis liegt nun ein **Angebotsüberhang** vor
+> 3. Der Angebotsüberhang **senkt den Gleichgewichtspreis**, die neue **Gleichgewichtsmenge ist geringer**
+> 
+> --> ${}P^*\downarrow{}$, ${}Q^*\downarrow{}$

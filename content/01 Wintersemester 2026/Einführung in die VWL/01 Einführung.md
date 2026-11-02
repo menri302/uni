@@ -89,7 +89,7 @@ Abweichungen: Teils systematisch (bspw. Selbstkontrollproblem)
 
 Opportunitätskosten der Zeit ≙ Mindestens nettonutzen dieser Zeit für Arbeit
 
-### Komparative Statistik
+### Komparative Statik
 
 > [!BUG] Komparative Statik
 > Analyse des Verhaltens endogener Variablen auf eine veränderte exogene Variable

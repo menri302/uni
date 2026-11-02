@@ -19,6 +19,7 @@
 
 > [!NOTE] Simultane Spiele
 > Alle Spieler wählen ihre Strategie gleichzeitig
+> --> Entscheidend ist nicht der genaue Zeitpunkt, sondern dass die Spieler die **Wahl des anderen nicht kennen**, wenn sie ihre Entscheidung treffen
 
 ### Beispiel: Gefangenendilemma
 ![[Pasted image 20261030125450.png|530]]
@@ -41,7 +42,10 @@ Eine Spieler mit dominanter Strategie muss keine Erwartung über das Verhalten a
 
 ## Wie kann das Gefangenendilemma gelöst werden?
 1. Vertrag, welcher das Verhalten festlegt
-2. Wiederholte Interaktion der Spieler 
+2. Wiederholte Interaktion der Spieler
+   - Jeder Spieler droht, in Zukunft unkooperativ zu spielen, wenn der andere von der Kooperation abweicht
+   - **Trade-off**: heute abweichen (höhere Auszahlung **heute**, aber Bestrafung **morgen**) vs. kooperieren (höhere Auszahlungen in der **Zukunft**)
+   --> Kooperation ist ein **Gleichgewicht**, wenn die Spieler die zukünftigen Auszahlungen **hoch genug bewerten** 
 ## Anwendung: Laborexperiment „Öffentliches Gut“-Spiel
 **Warum Laborexperimente?** Teilnehmende bekommen ein strukturiertes Entscheidungsproblem nahe am Modell, Strategien und Auszahlungen sind genau kontrollierbar → Test, ob echtes Verhalten zur Theorie passt.
 
@@ -52,7 +56,7 @@ Eine Spieler mit dominanter Strategie muss keine Erwartung über das Verhalten a
 $$\pi_A = I - g_A + 0{,}4 \cdot (g_A + g_B + g_C + g_D)$$
 
 - Privater Grenznutzen eines Euros: **0,40 €** (< 1 € Kosten)
-- Sozialer Grenznutzen:  ${} I*1.6={}$**1,60 €** (> 1 € Kosten)
+- Sozialer Grenznutzen: $4 \cdot 0{,}40\,€ =$ **1,60 €** pro eingezahltem Euro (> 1 € Kosten)
 
 **Prognose:**
 - **Dominante Strategie:** nichts einzahlen → GIDS: alle zahlen 0 → jeder erhält $I$
@@ -121,7 +125,12 @@ Zwei Länder entscheiden, ob sie neue Waffen produzieren (**aufrüsten**) oder b
 **Wie löse ich das?**
 
 > [!NOTE] Rückwertsinduktion
-> Es wird zunächst die optimale Strategie des letzten Spielers (hier Disney) betrachtet
+> Es wird zunächst die optimale Strategie des letzten Spielers (hier Disney) betrachtet, darauf aufbauend die des vorletzten usw.
+
+> [!BUG] Strategie in sequentiellen Spielen
+> Eine Strategie muss an **jedem Entscheidungsknoten** festlegen, was zu tun ist
+> (Disney: „Frühling, wenn Dreamworks Weihnachten wählt; Weihnachten, wenn Dreamworks Frühling wählt“)
+> --> Darauf beruht die Logik der **unglaubwürdigen Drohung**: Rückwärtsinduktion verlangt optimales Verhalten an **jedem** Knoten, nicht nur auf dem Gleichgewichtspfad
 
 
 |                             | **Disney: Weihnachten** | **Disney: Frühling** |

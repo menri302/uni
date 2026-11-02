@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="Helvetica, Arial, sans-serif">
+<style>.ax{stroke:#333;stroke-width:1.2} .d{stroke:#666;stroke-width:1;stroke-dasharray:4 4} .l{font-size:14px;fill:#333} .b{font-size:15px;font-weight:bold;fill:#222} .h{font-size:17px;font-weight:bold;fill:#222}</style>
+<rect width="760" height="470" fill="#ffffff"/>
+<text x="380" y="28" class="h" text-anchor="middle">Mengenregulierung (Quote bei Q**)</text>
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker>
+<marker id="ag" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c0392b"/></marker></defs>
+<!-- Achsen -->
+<line x1="80" y1="400" x2="80" y2="45" class="ax" marker-end="url(#ar)"/>
+<line x1="80" y1="400" x2="690" y2="400" class="ax" marker-end="url(#ar)"/>
+<text x="62" y="55" class="b">P</text>
+<text x="690" y="425" class="b">Q</text>
+<!-- Nachfrage -->
+<line x1="80" y1="80" x2="620" y2="404" stroke="#4a7bd0" stroke-width="2"/>
+<text x="560" y="350" class="l">Qᵈ = PGN = SGN</text>
+<!-- PGK -->
+<line x1="80" y1="340" x2="650" y2="140.5" stroke="#4a7bd0" stroke-width="2"/>
+<text x="655" y="138" class="l">PGK</text>
+<!-- SGK -->
+<line x1="80" y1="320" x2="440" y2="50" stroke="#c0392b" stroke-width="2"/>
+<text x="448" y="55" class="l" fill="#c0392b">SGK = PGK + GS</text>
+<!-- GS Pfeil -->
+<line x1="420" y1="219" x2="420" y2="70" stroke="#c0392b" stroke-width="1.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<text x="428" y="150" class="l" fill="#c0392b">GS</text>
+<!-- Angebot bei Mengenregulierung -->
+<polyline points="80,340 257.8,277.8 257.8,60" fill="none" stroke="#2e9e4f" stroke-width="5" stroke-opacity="0.75"/>
+<rect x="264" y="66" width="216" height="38" fill="#ffffff" fill-opacity="0.9"/>
+<text x="268" y="80" class="l" fill="#2e9e4f" font-weight="bold">Qˢ bei Mengenregulierung</text>
+<text x="268" y="97" class="l" fill="#2e9e4f">(= PGK bis Q**, dann senkrecht)</text>
+<!-- Gleichgewichte -->
+<line x1="80" y1="186.7" x2="257.8" y2="186.7" class="d"/>
+<line x1="257.8" y1="186.7" x2="257.8" y2="400" class="d"/>
+<line x1="353.7" y1="244.2" x2="353.7" y2="400" class="d"/>
+<line x1="80" y1="244.2" x2="353.7" y2="244.2" class="d"/>
+<circle cx="257.8" cy="186.7" r="5" fill="#222"/>
+<text x="232" y="180" class="b">B</text>
+<circle cx="353.7" cy="244.2" r="5" fill="none" stroke="#222" stroke-width="1.5"/>
+<text x="362" y="240" class="b">C</text>
+<text x="40" y="191" class="l">P**</text>
+<text x="48" y="249" class="l">P*</text>
+<text x="245" y="420" class="l">Q**</text>
+<text x="343" y="420" class="l">Q*</text>
+<text x="80" y="445" class="l">Ohne Quote: Gleichgewicht C (Nachfrage = PGK) → Überproduktion.</text>
+<text x="80" y="463" class="l">Mit Quote Q**: effizientes Gleichgewicht B (Nachfrage = SGK).</text>
+</svg>

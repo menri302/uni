@@ -18,8 +18,13 @@ Die Produzentenrente entspricht nicht dem Gewinn, da diese die Fixkosten nicht b
 > [!NOTE] Gesamtwohlfahrt
 > Summe aus Konsumenten-/Produzentenrente
 > --> Zahlungsbereitschaft - Willingness to Accept (WTA)
+> ${}W = (ZB - \text{gezahlter Betrag}) + (\text{erhaltener Betrag} - WTA){}$
+> Da gezahlter Betrag = erhaltener Betrag: **${}W = ZB - WTA{}$** = **Handelsgewinn**
 > Waurm ist diese im Gleichgwewict maximal?
 
+
+> [!BUG] Effizienz
+> Ein Marktergebnis ist **effizient**, wenn es die Gesamtwohlfahrt maximiert, also wenn **alle Handelsgewinne realisiert** (abgeschöpft) werden.
 
 **Das Gleichgewicht in einem Markt mit vollkommenen Wettbewerb ist effizient**
 1. Der Markt teilt das Angebot an Gütern den Käufern zu, die am meisten Zahlen
@@ -44,7 +49,12 @@ Neben Effizienz gibt es auch die Verteilungswirkung:
 >
 >Ohne ${}P_{l}{}$: ${}KR = A+B\land  PR=C+D+E\to W=A+B+C+D+E{}$ 
 >Mit ${}P_{l}{}$: ${}KR=A+C \land PR=E \to W=A+C+E{}$
+>--> W sinkt um **B + D**, da die Preisobergrenze das Marktergebnis von der effizienten Menge ${}Q^*{}$ wegschiebt (B + D = mögliche Handelsgewinne aller Einheiten zwischen ${}Q_{l}{}$ und ${}Q^*{}$, die nicht mehr gehandelt werden)
 >Der Verlust von W heißt **Wohlfahrtsverlust**
+>
+>**Produzenten verlieren C + D:**
+>Fläche C: PR-Verlust durch den **niedrigeren Preis** für die Einheiten, die vor und nach der Preisobergrenze verkauft werden
+>Fläche D: PR-Verlust durch die **geringere angebotene Menge**
 >
 >Die Auswirkung von ${}P_{l}{}$ ist **uneindeutig**:
 >Fläche C: ist ein Mehr an KR, weniger an PR

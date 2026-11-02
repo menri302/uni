@@ -77,14 +77,15 @@ hier: da sich Gleichgewicht auf PGK bezieht zeigt unter Einbezug des Grenzschade
 > [!NOTE] Pigou-Steuer
 > Eine Steuer, die durch externe Effekte verursachte Ineffizienzen zu korrigieren, nennt man Pigou-Steuer
 > Angenommen die Steuer pro Einheit ${}t{}$ entspricht dem GS.
-> --> PGK-t=PGK-GS=SGK --> Marktgleichgewicht in Q**
+> --> PGK+t=PGK+GS=SGK --> Angebotskurve verschiebt sich um t nach oben --> Marktgleichgewicht in Q**
 > ![[Pasted image 20261029123811.png]]
 > 
 
 
 ### Mengenregulierung
 Bei einer Mengenregulierung führt die Regierung Quoten ein, die die Menge festlegen die ein Unternehemn verkaufen darf
-![[Pasted image 20261029124051.png|654]]
+Wird die Menge auf Q\*\* festgelegt, verläuft die Angebotskurve (= PGK) bis Q\*\* normal und wird bei **Q\*\* senkrecht** → effizientes Gleichgewicht
+![[Mengenregulierung.svg]]
 
 > [!WARNING] Problem (Pigou-Steuer & Mengenregulierung)
 > Der Staat muss den **Grenzschaden genau kennen**, um **t** oder **Q\*\*** zu berechnen → in der Theorie einfacher als in der Praxis

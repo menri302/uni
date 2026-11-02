@@ -44,11 +44,27 @@ $$\pi' = p + p'(q) \cdot q - C'(q) \overset{!}{=} 0$$
 
 → Im Monopol ist der Grenzerlös daher **kleiner als der Preis**. Im Wettbewerb fällt der Preiseffekt weg ($p' = 0$), deshalb gilt dort Grenzerlös = $p$.
 
+> [!NOTE] Grenzerlös-Kurve im Monopol
+> - Liegt **unterhalb der Marktnachfragekurve** (GE < P)
+> - Der **Abstand** zwischen GE-Kurve und Nachfrage **wächst mit Q**, da die Preissenkung für eine größere Menge gilt (Preiseffekt größer)
+
 ![[Pasted image 20261030114109.png]]![[Pasted image 20261030114955.png]]
 
 # Gleichgewicht im Monopol
 ![[Pasted image 20261030115315.png]]
+
+> [!BUG] Ergebnis: Optimale Menge und Preis
+> Wettbewerbsunternehmen und Monopolist weiten die Produktion aus, solange GE > GK, und stoppen bei **GE = GK**. Der Preis ergibt sich dann aus der Nachfragekurve.
+> - **Monopol**: ${}P > GE = GK{}$ → bei der optimalen Menge ist **ZB > GK**
+> - **Wettbewerb**: ${}P = GE = GK{}$ → bei der optimalen Menge ist **ZB = GK**
+
 # Wohlfahrt im Monopol
+> [!NOTE] Sozialer Planer
+> Ein wohlwollender sozialer Planer maximiert die **Gesamtrente** (nicht den Gewinn) → er erhöht den Output, solange **ZB > GK**
+> --> setzt **P = GK** → Menge $Q^*$, Preis $p^*$ (Schnitt von Nachfrage und GK)
+> --> sozial optimaler Preis **niedriger**, Menge **höher** als im Monopol
+> --> **Lösung des Planers = Gleichgewicht bei vollkommenem Wettbewerb**
+
 ![[Monopol Wohlfahrt.svg]]
 
 | | **Vollk. Wettbewerb** | **Monopol** |
