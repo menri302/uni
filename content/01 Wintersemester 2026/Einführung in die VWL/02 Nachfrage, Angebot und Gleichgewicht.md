@@ -163,3 +163,32 @@ Die Analyse folgt **drei Schritten**:
 > 3. Der Angebotsüberhang **senkt den Gleichgewichtspreis**, die neue **Gleichgewichtsmenge ist geringer**
 > 
 > --> ${}P^*\downarrow{}$, ${}Q^*\downarrow{}$
+
+
+## Anwendung: Uber und Surge Pricing
+Der Markt für Uber-Fahrten ähnelt einem Markt mit **vollkommenem Wettbewerb**:
+- viele Anbieter (Fahrer) und Nachfrager
+- homogenes Produkt (die Fahrten)
+- Marktteilnehmer können den Preis nicht beeinflussen (Uber setzt ihn)
+
+**Hintergrund:** Uber hat kürzere Wartezeiten als Taxis (Portland: ca. 6 statt 10 Min.), auch bei hoher Nachfrage (z.B. Samstagabend)
+
+> [!NOTE] Surge Pricing
+> **Lange Wartezeiten** sind ein Zeichen für einen **Nachfrageüberhang**
+> --> Uber kann nicht direkt mehr Fahrer bereitstellen (freiberuflich), aber den **Preis erhöhen** (Surge Pricing)
+> Ein höherer Preis sendet das richtige Signal an:
+> 1. **Anbieter (Fahrer)**: höherer Anreiz, Fahrten anzubieten → Angebot ↑
+> 2. **Nachfrager**: geringerer Anreiz, vor allem Käufer mit **niedriger ZB** fragen nicht mehr nach → Nachfrage ↓
+> --> Angebot und Nachfrage nähern sich an → **Wartezeiten sinken**
+
+> [!EXAMPLE] Empirie: Ausverkauftes Konzert in New York (Hall, Kendrick & Nosko 2015)
+> Preis bis zu **80 %** über Normalpreis
+> - **App-Öffnungen** stiegen drastisch (= Nachfragekurve verschiebt sich nach außen), die **tatsächlichen Anfragen** nur geringfügig
+>   --> Preisanstieg reduziert die Nachfrage, Fahrten gehen an die mit der **höchsten ZB**
+> - Das **Angebot** stieg nach der Preiserhöhung
+
+> [!EXAMPLE] Empirie: Ausfall des Surge Pricing (Silvester, technische Panne)
+> Was passiert ohne Preiserhöhung? Theorie: Nachfrage > Angebot → längere Wartezeiten
+> - Spitze der **Anfragen größer** als mit Surge Pricing
+> - **Wartezeiten (ETA) länger**, weniger Anfragen innerhalb von 15 Min. bearbeitet
+> --> bestätigt die Vorhersage des Modells

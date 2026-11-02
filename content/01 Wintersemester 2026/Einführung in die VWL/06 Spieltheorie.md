@@ -205,3 +205,10 @@ Häufigste Anwendung von (un)glaubwürdigen Drohungen.
 - **Treueprogramme** (z.B. Bonusmeilen) binden Kunden → Marktanteil des Neuen zu klein, um rentabel zu sein
 - **Exklusivverträge** mit Händlern → Neuer hat keine oder nur schlechte Vertriebskanäle
 - --> solche Verträge werden von **Wettbewerbsbehörden** geprüft
+
+
+> [!EXAMPLE] Southwest Airlines (Goolsbee & Syverson 2008)
+> Etablierte Airlines reagieren auf den **drohenden** Markteintritt von Southwest:
+> - Preise **−21 %** schon **vor** der neuen Strecke, **−28 %** danach → ca. **¾ der Reaktion vorab**
+> - Ziel: Kunden gewinnen und binden, v.a. auf Strecken mit vielen **Geschäftskunden**
+> --> Markteintritt wurde trotzdem meist **nicht verhindert**
