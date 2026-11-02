@@ -134,5 +134,90 @@ $\eta_i$ meist **negativ** (Preis ↑ --> Absatz ↓)
 > **Näherung vs. exakt**: Elastizität = **lineare Näherung** (Tangente) --> bei kleinen Preisänderungen gut, bei großen ungenau
 >
 
+---
 
- 
+# Preisdifferenzierung
+
+> [!NOTE] Preisdifferenzierung
+> Für **identische Produkte** werden **unterschiedlich hohe Preise** gefordert.
+
+Arten: **zeitlich**, **räumlich**, ...
+
+## Zeitliche Preisdifferenzierung
+
+> [!NOTE] Zeitliche Preisdifferenzierung
+> Für **unterschiedliche Zeiten** existieren **unterschiedliche Preise** (teils eher Produktvariation).
+
+**Beispiele**: Opernpremieren, Wochenendtarife, „Studententag“, Schlussverkäufe, Flugpreise je nach Datum
+
+**Ursachen**
+- Ausnutzung des **„Innovationseffekts“** (neu = teuer)
+- **zeitlich unterschiedliche Zahlungsbereitschaft** der Käufer
+- Verkauf von **„Resten“**
+
+## Räumliche Preisdifferenzierung
+
+> [!NOTE] Räumliche Preisdifferenzierung
+> Auf **räumlich getrennten Märkten** existieren **unterschiedliche Preise**.
+
+**Beispiele**: Pkw, Re-Importe von Medikamenten
+
+**Voraussetzungen**
+- nur lohnend, wenn auf den Teilmärkten **unterschiedliche PAF** existieren
+- funktioniert nur, wenn Konsumenten das Produkt **nicht oder nur unter Kosten** auf einem anderen als dem Heimatmarkt kaufen können
+
+---
+
+# Marktforschung
+
+> [!NOTE] Marktforschung
+> **Systematische Erforschung der Märkte**.
+> **Ziel**: **Fundierung von Marketingentscheidungen**
+
+**Methoden** (vgl. Prognoseverfahren Kap. 3)
+- Kundenbefragungen
+- Befragung zufällig ausgewählter Personen (Telefon, Straße, Internet)
+- Expertenbefragungen
+- experimentelle Kaufsituationen
+- Beobachtung **repräsentativer Kaufbezirke** (z.B. **Haßloch**: Testmarkt für neue Produkte)
+
+## Bedingte Wahrscheinlichkeiten (Medienplanung)
+
+> [!NOTE] Bedingte Wahrscheinlichkeit
+> Wahrscheinlichkeit, dass $A$ eintritt **unter der Bedingung**, dass $B$ eingetreten ist: $P(A|B)$
+
+> [!example] Beispiel Motorrad
+> $P(\text{Kauf}) = 1\,\%$, $P(\text{Kauf}\,|\,\text{Mann 20–35}) = 2{,}5\,\%$ --> gleiche Werbekosten, welche Sendung?
+>
+> | Option | Rechnung | erwartete Käufer |
+> | ------ | -------- | ---------------- |
+> | 1) 100.000 Männer 20–35 | $100.000 \cdot 2{,}5\,\%$ | **2.500** |
+> | 2) 200.000 repräsentativ | $200.000 \cdot 1\,\%$ | 2.000 |
+>
+> --> **Option 1** besser: nicht Reichweite zählt, sondern **Reichweite in der Zielgruppe × Kaufwahrscheinlichkeit**
+
+---
+
+# Produktlebenszyklus
+
+![[BWL Produktlebenszyklus.png|718]]
+
+## Beispiel: VW Käfer
+
+![[BWL Produktlebenszyklus VW Kaefer.png|673]]
+
+## Kritische Betrachtung
+
+**Stärken**
+- intuitiv
+- auf **hoch aggregierter Ebene** anwendbar:
+  - Charakterisierung typischer Marktsituationen
+  - Fundierung strategischer Grundsatzentscheidungen
+
+**Schwächen**
+- **keine allgemeingültige Gesetzmäßigkeit** (weder empirisch bestätigt noch theoretisch fundiert), vor allem nicht für einzelne Produkte/Marken
+- **Vernachlässigung wichtiger Einflussfaktoren** (z.B. Absatzpolitik, Umweltzustand)
+- **keine eindeutigen Kriterien** zur Abgrenzung der Phasen --> Phasenbestimmung erst **im Nachhinein** möglich
+- zugrunde liegende Geschäftsfeld- und Marktdefinitionen können **zeitlich variieren**
+
+

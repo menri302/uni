@@ -50,6 +50,10 @@ Kurve: Zahlungsbereitschaft für die **x-te Einheit**, also der Höchstpreis fü
 > Anmerkung: Die fallende Zahlungsbereitschaft spiegelt den abnehmenden Grenznutzen wider.
 
 
+> [!NOTE] Marktnachfrage
+> Summe der individuellen Nachfragekurven: **Mengen bei gleichem Preis addieren** (horizontale Aggregation)
+> ![[Marktnachfrage.svg]]
+
 ### Verschiebung der Nachfragekurve
 1. **Präferenzen**
    Wenn sich Konsumenten bspw. der Erderwärmung bewusst werden, könnte sich die Nachfragekurve nach loinks verschieben (verringern)
