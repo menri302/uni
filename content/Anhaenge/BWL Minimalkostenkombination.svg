@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 380" width="580" height="380" font-family="Helvetica, Arial, sans-serif">
+<style>.ax{stroke:#333;stroke-width:1.2} .l{font-size:13px;fill:#333} .b{font-size:14px;font-weight:bold;fill:#222}</style>
+<rect width="580" height="380" fill="#ffffff"/>
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker></defs>
+<line x1="60" y1="330" x2="555" y2="330" class="ax" marker-end="url(#ar)"/>
+<line x1="60" y1="330" x2="60" y2="25" class="ax" marker-end="url(#ar)"/>
+<text x="548" y="352" class="b">r₁</text><text x="38" y="35" class="b">r₂</text>
+<!-- Hilfslinien MKK -->
+<line x1="190" y1="250" x2="190" y2="330" stroke="#888" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="60" y1="250" x2="190" y2="250" stroke="#888" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="190" y="348" class="l" text-anchor="middle">r₁*</text><text x="52" y="254" class="l" text-anchor="end">r₂*</text>
+<!-- Kostengeraden -->
+<line x1="60" y1="70" x2="482.5" y2="330" stroke="#d93025" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="60" y1="170" x2="320" y2="330" stroke="#3a96c8" stroke-width="2.2"/>
+<!-- Isoquante -->
+<polyline points="100.0,70.0 104.0,93.6 108.0,113.3 112.0,130.0 116.0,144.3 120.0,156.7 124.0,167.5 128.0,177.1 132.0,185.6 136.0,193.2 140.0,200.0 144.0,206.2 148.0,211.8 152.0,217.0 156.0,221.7 160.0,226.0 164.0,230.0 168.0,233.7 172.0,237.1 176.0,240.3 180.0,243.3 184.0,246.1 188.0,248.8 192.0,251.2 196.0,253.5 200.0,255.7 204.0,257.8 208.0,259.7 212.0,261.6 222.0,265.8 232.0,269.5 242.0,272.9 252.0,275.8 262.0,278.5 272.0,280.9 282.0,283.2 292.0,285.2 302.0,287.0 312.0,288.7 322.0,290.3 332.0,291.8 342.0,293.1 352.0,294.4 362.0,295.6 372.0,296.7 382.0,297.7 392.0,298.7 402.0,299.6 412.0,300.5 422.0,301.3 432.0,302.0 442.0,302.8 452.0,303.5 462.0,304.1 472.0,304.8 482.0,305.4 492.0,305.9 502.0,306.5 512.0,307.0 522.0,307.5" fill="none" stroke="#111" stroke-width="1.8"/>
+<circle cx="190" cy="250" r="5" fill="#111"/>
+<text x="200" y="240" class="b">MKK</text>
+<text x="538" y="312" class="b">x = 3</text>
+<!-- Legende -->
+<line x1="340" y1="40" x2="370" y2="40" stroke="#111" stroke-width="1.8"/><text x="378" y="44" class="l">Isoquante (Output fest)</text>
+<line x1="340" y1="62" x2="370" y2="62" stroke="#3a96c8" stroke-width="2.2"/><text x="378" y="66" class="l">Kostengerade, K minimal</text>
+<line x1="340" y1="84" x2="370" y2="84" stroke="#d93025" stroke-width="2" stroke-dasharray="7 5"/><text x="378" y="88" class="l">Kostengerade, K zu hoch</text>
+</svg>

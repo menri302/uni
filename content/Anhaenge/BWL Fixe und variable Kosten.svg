@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 462" width="680" height="462" font-family="Helvetica, Arial, sans-serif">
+<style>.ax{stroke:#333;stroke-width:1.2} .l{font-size:13px;fill:#333} .b{font-size:14px;font-weight:bold;fill:#222}</style>
+<rect width="680" height="462" fill="#ffffff"/>
+<defs>
+<marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker>
+<marker id="s" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker>
+</defs>
+<text x="70" y="30" class="b">K(x) = K<tspan baseline-shift="sub" font-size="70%">f</tspan>(x) + K<tspan baseline-shift="sub" font-size="70%">v</tspan>(x) = K̄<tspan baseline-shift="sub" font-size="70%">F</tspan> + K<tspan baseline-shift="sub" font-size="70%">v</tspan>(x)</text>
+<line x1="70" y1="330" x2="640" y2="330" class="ax" marker-end="url(#ar)"/>
+<line x1="70" y1="330" x2="70" y2="45" class="ax" marker-end="url(#ar)"/>
+<text x="648" y="335" class="b">x</text>
+<!-- Fixkostenniveau -->
+<line x1="70" y1="270" x2="640" y2="270" stroke="#c77700" stroke-width="1.4" stroke-dasharray="5 4"/>
+<!-- Gesamtkosten -->
+<path d="M70 270 C330 250 430 240 500 200 C560 165 590 110 620 70" fill="none" stroke="#111" stroke-width="2.2"/>
+<!-- Messpfeile -->
+<line x1="571" y1="268" x2="571" y2="139" stroke="#3a96c8" stroke-width="1.6" marker-start="url(#s)" marker-end="url(#s)"/>
+<line x1="571" y1="328" x2="571" y2="272" stroke="#c77700" stroke-width="1.6" marker-start="url(#s)" marker-end="url(#s)"/>
+<text x="582" y="208" class="b" fill="#3a96c8">K<tspan baseline-shift="sub" font-size="70%">v</tspan>(x)</text>
+<text x="582" y="305" class="b">K<tspan baseline-shift="sub" font-size="70%">f</tspan>(x)</text>
+<circle cx="70" cy="270" r="4" fill="#111"/>
+<!-- Legende -->
+<line x1="70" y1="372" x2="100" y2="372" stroke="#111" stroke-width="2.2"/><text x="110" y="376" class="l">K(x): Gesamtkosten = Fixkosten + variable Kosten</text>
+<line x1="70" y1="396" x2="100" y2="396" stroke="#c77700" stroke-width="1.4" stroke-dasharray="5 4"/><text x="110" y="400" class="l">K<tspan baseline-shift="sub" font-size="70%">f</tspan> = K̄<tspan baseline-shift="sub" font-size="70%">F</tspan>: Fixkosten, mengenunabhängig → waagerecht (Strich = konstant)</text>
+<line x1="70" y1="420" x2="100" y2="420" stroke="#3a96c8" stroke-width="1.6"/><text x="110" y="424" class="l">K<tspan baseline-shift="sub" font-size="70%">v</tspan>(x): variable Kosten = Abstand Kurve – Fixkostenlinie, wächst mit x</text>
+<circle cx="85" cy="441" r="4" fill="#111"/><text x="110" y="445" class="l">bei x = 0: K(0) = K̄<tspan baseline-shift="sub" font-size="70%">F</tspan> → Kurve startet nicht im Ursprung</text>
+</svg>

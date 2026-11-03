@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 465" width="650" height="465" font-family="Helvetica, Arial, sans-serif">
+<style>.ax{stroke:#333;stroke-width:1.2} .l{font-size:13px;fill:#333} .b{font-size:14px;font-weight:bold;fill:#222}</style>
+<rect width="650" height="465" fill="#ffffff"/>
+<defs>
+<marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker>
+<marker id="ar2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#d93025"/></marker>
+</defs>
+<line x1="60" y1="330" x2="585" y2="330" class="ax" marker-end="url(#ar)"/>
+<line x1="60" y1="330" x2="60" y2="40" class="ax" marker-end="url(#ar)"/>
+<text x="594" y="335" class="b">r₁</text><text x="36" y="50" class="b">r₂</text>
+<!-- Achsenabschnitte K=5 -->
+<text x="52" y="85" class="b" text-anchor="end">K/q₂</text>
+<line x1="310" y1="330" x2="310" y2="336" stroke="#3a96c8" stroke-width="2"/>
+<text x="310" y="352" class="b" text-anchor="middle" fill="#3a96c8">K/q₁</text>
+<line x1="560" y1="330" x2="560" y2="336" stroke="#d93025" stroke-width="2"/>
+<text x="560" y="352" class="b" text-anchor="middle" fill="#d93025">K/q₁ neu</text>
+<!-- alte Kostengeraden K=1..5 -->
+<line x1="60" y1="280" x2="110" y2="330" stroke="#3a96c8" stroke-width="1.5"/>
+<line x1="60" y1="230" x2="160" y2="330" stroke="#3a96c8" stroke-width="1.5"/>
+<line x1="60" y1="180" x2="210" y2="330" stroke="#3a96c8" stroke-width="1.5"/>
+<line x1="60" y1="130" x2="260" y2="330" stroke="#3a96c8" stroke-width="1.5"/>
+<line x1="60" y1="80" x2="310" y2="330" stroke="#3a96c8" stroke-width="2.2"/>
+<text x="113" y="322" class="l">K=1</text><text x="163" y="322" class="l">K=2</text><text x="213" y="322" class="l">K=3</text><text x="263" y="322" class="l">K=4</text><text x="313" y="322" class="l">K=5</text>
+<!-- neue Kostengerade K=5 -->
+<line x1="60" y1="80" x2="560" y2="330" stroke="#d93025" stroke-width="2.4"/>
+<text x="470" y="272" class="b" fill="#d93025">K=5 neu</text>
+<path d="M300 300 Q400 290 470 312" fill="none" stroke="#d93025" stroke-width="1.4" marker-end="url(#ar2)"/>
+<circle cx="60" cy="80" r="5" fill="#222"/>
+<text x="72" y="72" class="l">Drehpunkt</text>
+<!-- Legende -->
+<line x1="60" y1="375" x2="90" y2="375" stroke="#3a96c8" stroke-width="2"/><text x="100" y="379" class="l">vorher: Kostengeraden K = 1 … 5 (steil, parallel)</text>
+<line x1="60" y1="399" x2="90" y2="399" stroke="#d93025" stroke-width="2.4"/><text x="100" y="403" class="l">nach Lohnsenkung (q₁ ↓): K = 5 dreht sich flacher, r₁-Achsenpunkt wandert nach rechts</text>
+<circle cx="75" cy="421" r="5" fill="#222"/><text x="100" y="425" class="l">Drehpunkt auf r₂-Achse: nur Energie kaufen kostet unverändert (q₂ gleich)</text>
+<text x="100" y="447" class="l">Achsenabschnitte: nur Energie kaufen → K/q₂ · nur Arbeit kaufen → K/q₁ (q₁ ↓ → K/q₁ ↑)</text>
+</svg>

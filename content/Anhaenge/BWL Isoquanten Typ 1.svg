@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 40 210 265" width="210" height="265" font-family="Helvetica, Arial, sans-serif">
+<style>.ax{stroke:#555;stroke-width:1.2} .iq{fill:none;stroke:#534AB7;stroke-width:2} .l{font-size:12px;fill:#555} .b{font-size:14px;font-weight:bold;fill:#222}</style>
+<rect x="30" y="40" width="210" height="265" fill="#ffffff"/>
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs>
+<line x1="60" y1="240" x2="225" y2="240" class="ax" marker-end="url(#ar)"/>
+<line x1="60" y1="240" x2="60" y2="50" class="ax" marker-end="url(#ar)"/>
+<text x="212" y="232" class="l">r₁</text><text x="68" y="58" class="l">r₂</text>
+<line x1="60" y1="240" x2="175" y2="125" stroke="#888" stroke-width="0.8" stroke-dasharray="4 4"/>
+<path d="M90 80 L90 210 L215 210" class="iq"/>
+<path d="M120 80 L120 180 L215 180" class="iq"/>
+<path d="M150 80 L150 150 L215 150" class="iq"/>
+<circle cx="90" cy="210" r="3.5" fill="#D85A30"/><circle cx="120" cy="180" r="3.5" fill="#D85A30"/><circle cx="150" cy="150" r="3.5" fill="#D85A30"/>
+<text x="140" y="272" class="b" text-anchor="middle">Typ 1: limitational</text>
+<text x="140" y="292" class="l" text-anchor="middle">Arbeit + Einzelteile</text>
+</svg>
