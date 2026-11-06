@@ -1,6 +1,6 @@
 # Was sind Externalitäten
-> [!BUG] Externatlitäten
-> Entstehen wenn die Handlungen eines Wirtschaftsaktuers einen anderen außerhalb des Marktmechanismus direkt beeinflussen
+> [!BUG] Externalitäten
+> Entstehen wenn die Handlungen eines Wirtschaftsakteurs einen **dritten** außerhalb des Marktmechanismus direkt beeinflussen
 > **Positive Externalitäten**: Die Auswirkung ist positiv
 > **Negative Externalitäten**: Die Auswirkung ist negativ
 > **Produktionsexternalitäten** (bspw. Lärmbelästigung durch Flughafen) vs **Konsumexternalitäten** (bspw. Passivrauchen)
@@ -63,9 +63,9 @@ hier: da sich Gleichgewicht auf PGK bezieht zeigt unter Einbezug des Grenzschade
 - Effiziente Menge Q\*\* wird erreicht, **egal wem der Fluss gehört**
 - Eigentumsrechte bestimmen nur, **wer wen bezahlt** (Verteilung), nicht die Menge (Effizienz)
 
-### Probleme des Coase-Thorems
-1. **Zuweisungsproblem**: Zuweistung von Eigentumsrechten praktisch kompliziert, bspw. bei unklaren eigentumgs/betroffenheitsverhältnissen
-2. **Transaktions und Verhaltensprobleme**: Verhandlungen sind schwierig wenn viele Individueen auf einer oder beiden Seiten stehen
+### Probleme des Coase-Theorems
+1. **Zuweisungsproblem**: Zuweisung von Eigentumsrechten praktisch kompliziert, bspw. bei unklaren Eigentums-/Betroffenheitsverhältnissen
+2. **Transaktions und Verhaltensprobleme**: Verhandlungen sind schwierig wenn viele Individuen auf einer oder beiden Seiten stehen
 
 **Die Coase-Lösung** ist wahrscheinlicher für kleine, lokal begrenzte Externalitäten
 
@@ -83,9 +83,21 @@ hier: da sich Gleichgewicht auf PGK bezieht zeigt unter Einbezug des Grenzschade
 
 
 ### Mengenregulierung
-Bei einer Mengenregulierung führt die Regierung Quoten ein, die die Menge festlegen die ein Unternehemn verkaufen darf
+Bei einer Mengenregulierung führt die Regierung Quoten ein, die die Menge festlegen die ein Unternehmen verkaufen darf
 Wird die Menge auf Q\*\* festgelegt, verläuft die Angebotskurve (= PGK) bis Q\*\* normal und wird bei **Q\*\* senkrecht** → effizientes Gleichgewicht
 ![[Mengenregulierung.svg]]
+
+> [!NOTE] Wohlfahrt bei Quote **mit** Externalität
+> Ohne Externalität ist eine Quote ineffizient (C + D = Wohlfahrtsverlust). **Mit** negativer Externalität dreht sich das um:
+> - **A**: Konsumentenrente
+> - **B**: Umverteilung von KR zu PR (Quotenrente)
+> - **E**: Produzentenrente (Rest)
+> - **C + D**: Handelsgewinne der Einheiten zwischen Q\*\* und Q\*, die durch die Quote **wegfallen**
+> - **Schaden für Dritte** dieser Einheiten = Fläche zwischen SGK und PGK von Q\*\* bis Q\* = **C + D + F**
+>
+> → Vermiedener Schaden (C + D + F) > verlorene Handelsgewinne (C + D) → **Nettogewinn F**
+> → F ist genau der Wohlfahrtsverlust, der ohne Quote (Gleichgewicht bei Q\*) entstehen würde
+> → Quote bei Q\*\* führt zum **effizienten Gleichgewicht** (Nachfrage = SGK)
 
 > [!WARNING] Problem (Pigou-Steuer & Mengenregulierung)
 > Der Staat muss den **Grenzschaden genau kennen**, um **t** oder **Q\*\*** zu berechnen → in der Theorie einfacher als in der Praxis

@@ -18,7 +18,7 @@ $$
 
 | Maximalprinzip   | generelles Extremalprinzip                    | Minimalprinzip  |
 | ---------------- | --------------------------------------------- | --------------- |
-| gegebener Input  | Input/Output werden zu einer Größe verdichtet | gegeber Output  |
+| gegebener Input  | Input/Output werden zu einer Größe verdichtet | gegebener Output  |
 | maximaler Output | werden maximiert/minimiert                    | minimaler Input |
 
 

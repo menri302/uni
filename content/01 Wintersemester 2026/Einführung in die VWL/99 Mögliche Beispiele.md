@@ -160,7 +160,7 @@ In San Francisco lässt sich der Qualitätseffekt kaum messen, weil die Bindung 
 # Kap. 04: Externalitäten
 
 ## Saubere Luft in Los Angeles (Sullivan 2017)
-→ [[01 Wintersemester 2026/Einführung in die VWL/04 Externatlitäten#Staatliche Maßnahmen gegen Externalitäten|Staatliche Maßnahmen gegen Externalitäten]]
+→ [[01 Wintersemester 2026/Einführung in die VWL/04 Externalitäten#Staatliche Maßnahmen gegen Externalitäten|Staatliche Maßnahmen gegen Externalitäten]]
 
 **Problem:** Für Pigou-Steuer und Mengenregulierung muss der Staat den **Grenzschaden** kennen
 

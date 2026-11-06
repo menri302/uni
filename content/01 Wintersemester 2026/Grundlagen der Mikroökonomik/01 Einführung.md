@@ -53,5 +53,5 @@ Empirie als Mittel, um herauszufinden, ob Annahmen/Vorhersagen realistisch sind
 
 
 > [!BUG] Kontrafaktum
-> Wir vergleichen das beobachtete bzw. bestehende Gleichgewicht mit einem nicht beobachtbaren **hypothetischen Gleichgewicht unter veränderten Bedingungen**. (vgl. [[01 Wintersemester 2026/Einführung in die VWL/01 Einführung#Komparative Statistik|Komperative Statik]])
+> Wir vergleichen das beobachtete bzw. bestehende Gleichgewicht mit einem nicht beobachtbaren **hypothetischen Gleichgewicht unter veränderten Bedingungen**. (vgl. [[01 Wintersemester 2026/Einführung in die VWL/01 Einführung#Komparative Statistik|Komparative Statik]])
 

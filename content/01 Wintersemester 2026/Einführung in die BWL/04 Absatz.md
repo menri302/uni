@@ -19,7 +19,7 @@ aber: kostet geld, Kundenzufriedenheit als MZZ
    --> Ständig neue Features/Modifikationen (die die Kunden "unbedingt" benötigen)
 2. Wie dauerhaft **Absatz** des Produktes **sichern**?
    --> Sicherung des **akquisitorischen Potentials** 
-   --> **Stammkundenbindung** (Vertrauen in die Firma, Kundendiesnte, Heterogenität der Produkte, Organisation in Ökosystemen, Qualitätsunterschiede, Absatzorganisation und Liefer-/Zahlungsbedingungen)
+   --> **Stammkundenbindung** (Vertrauen in die Firma, Kundendienste, Heterogenität der Produkte, Organisation in Ökosystemen, Qualitätsunterschiede, Absatzorganisation und Liefer-/Zahlungsbedingungen)
 
 
 # Absatzpolitische Instrumente
@@ -80,7 +80,7 @@ aber: kostet geld, Kundenzufriedenheit als MZZ
 ## Rolle der Ethik
 Relevante Fragen z.B. 
 - Dürfen Vorteile überzeichnet/negative Eigenschaften weggelassen werden?
-- Ist es verantwortbar, schlecht gebildete Kosnumenten an zweifelhafte Produkte zu locken?
+- Ist es verantwortbar, schlecht gebildete Konsumenten an zweifelhafte Produkte zu locken?
 - Müssen Personen darauf hingewiesen werden, dass ein Produkt nicht zu ihren Anforderungen/Vorstellungen passt?
 
 **Beurteilungsbasis**: Recht vs. Ökonomik vs. Ethik

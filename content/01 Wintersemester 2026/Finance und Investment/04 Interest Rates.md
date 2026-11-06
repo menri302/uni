@@ -32,7 +32,7 @@
 > ${}\left(1+\frac{APR}{k}\right)^{k}=1+EAR{}$
 
 
-## Continous Compounding 
+## Continuous Compounding 
 
 > [!NOTE] Continuous compounding
 > The smaller the interval (monthly → daily → hourly), the closer we get to continuous compounding

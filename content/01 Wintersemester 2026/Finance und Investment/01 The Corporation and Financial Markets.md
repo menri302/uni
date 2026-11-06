@@ -63,8 +63,8 @@
 # 1.2 Ownership Versus Control of Corporations
 
 ## Riskiness and Voting rights
-**Equity holders have voting rights, while dept holders have not, why?**
---> Equity holders's earnings are dependent on a companies earnings while debt holders's aren't (equity holders earnings are based of the earnings after all liabilities)
+**Equity holders have voting rights, while debt holders have not, why?**
+--> Equity holders' earnings are dependent on a companies earnings while debt holders' aren't (equity holders earnings are based of the earnings after all liabilities)
 --> Equity holders hold more risk so they decide
 
 ## Ownership vs. Control in a Stock Company
@@ -216,7 +216,7 @@ Market participants can submit **limit orders** and **market orders**.
 
 A **market index** reports the **value and performance** of a particular selection of securities.
 
-**Consideration of dividents**
+**Consideration of dividends**
 
 | Type                                                         | How it works                                                               | Example                                                                          |
 | ------------------------------------------------------------ | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |

@@ -1,13 +1,9 @@
----
-share_link: https://share.note.sx/dvlow3lq#FziBJ0tIQOohjWWCLEfQ2w
-share_updated: 2026-11-01T18:49:31+01:00
----
 
 > [!NOTE] Definitionen
-> ${}C{}$: Konsumausgaben der privaten Haushakte
+> ${}C{}$: Konsumausgaben der privaten Haushalte
 > ${}G{}$: Konsumausgaben des Staates
 > ${}I{}$: Bruttoinvestitionen
-> ${}X-IM{}$: Exporte minu Importe
+> ${}X-IM{}$: Exporte minus Importe
 
 **Wir betrachte im folgenden eine Volkswirtschaft ohne ökonomische Beziehungen**
 --> ${}X=IM=0{}$, ${}\text{BIP=BNE}{}$
@@ -27,7 +23,7 @@ share_updated: 2026-11-01T18:49:31+01:00
 ### Konsumnachfrage ${}C{}$
 
 > [!NOTE] Modellierung
-> Das **verfügbare Einkommen** bezeichnet das Einkommen, dass dem Verbauchern nach Nettosteuern ${}T{}$ (Direkte Steuern + Sozialversicherungsbeiträge-Transfers) zur Verfügung steht
+> Das **verfügbare Einkommen** bezeichnet das Einkommen, dass dem Verbrauchern nach Nettosteuern ${}T{}$ (Direkte Steuern + Sozialversicherungsbeiträge-Transfers) zur Verfügung steht
 > ${}Y_{V}\equiv Y-T{}$
 > ${}C=C(Y_{V}){}$ Der Konsum erhöht sich wenn das verfügbare Einkommen ${}Y_{V}{}$ zunimmt
 
@@ -54,7 +50,7 @@ share_updated: 2026-11-01T18:49:31+01:00
 > --- 
 >    Zudem **3 Typen von Variablen**:
 >    **Parameter**: ${}c_{0}{}$, ${}c_{1}{}$
->    **exogene Variablen**: ${}G,T,\bar{I}{}$ (${}\bar{I}{}$ = exogenes Investitionniveau)
+>    **exogene Variablen**: ${}G,T,\bar{I}{}$ (${}\bar{I}{}$ = exogenes Investitionsniveau)
 >    **endogene Variablen**: ${}Y{}$
 
 ### Lösung des Gütermarktmodells:

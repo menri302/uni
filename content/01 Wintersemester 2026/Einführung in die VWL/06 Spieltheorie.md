@@ -37,7 +37,7 @@
 > [!EXAMPLE] Gleichgewicht in dominanten Strategien
 > Eine Strategiekombination ist im GIDS wenn alle Gleichgewichtsstrategien dominante Strategien sind (bspw. Gefangenendilemma)
 
-Voraussetzung: Alle Teilenehmenden gleichzeitig Optimierend
+Voraussetzung: Alle Teilnehmenden gleichzeitig Optimierend
 Eine Spieler mit dominanter Strategie muss keine Erwartung über das Verhalten anderer bilden
 
 ## Wie kann das Gefangenendilemma gelöst werden?
@@ -124,7 +124,7 @@ Zwei Länder entscheiden, ob sie neue Waffen produzieren (**aufrüsten**) oder b
 ![[Pasted image 20261031120528.png|737]]
 **Wie löse ich das?**
 
-> [!NOTE] Rückwertsinduktion
+> [!NOTE] Rückwärtsinduktion
 > Es wird zunächst die optimale Strategie des letzten Spielers (hier Disney) betrachtet, darauf aufbauend die des vorletzten usw.
 
 > [!BUG] Strategie in sequentiellen Spielen
@@ -164,7 +164,7 @@ Es gibt noch ein **zweites Nash-GG**: Disney veröffentlicht **immer** an Weihna
 --> Dreamworks durchschaut das und nimmt trotzdem Weihnachten
 
 > [!NOTE] Erkenntnis
-> Rückwärtsinduktion sortiert Nash-GG mit **unglaubwürdigen Drohungen** aus. Nash guckt nur ob es jeweils die beste Strategie ist, hintefragt Grundprämisse (unglaubwürdige Drohung) nicht
+> Rückwärtsinduktion sortiert Nash-GG mit **unglaubwürdigen Drohungen** aus. Nash guckt nur ob es jeweils die beste Strategie ist, hinterfragt Grundprämisse (unglaubwürdige Drohung) nicht
 
 
 

@@ -2,13 +2,13 @@
 
 > [!NOTE] Konsumentenrente
 > Die Konsumentenrente ist also ein monetäres Maß für den Nutzen, den ein Konsument aus dem Kauf eines Gutes zieht.
-> Differenz zwischen WTP un dem Preis, ausfsummie
+> Differenz zwischen WTP und dem Preis, aufsummiert
 > ![[Pasted image 20261022151146.png]]
 > 
 
 
 > [!NOTE] Produzentenrente
-> > Differenz zwischen WTA un dem Preis, aufsummiert über alle gehandelte Einheiten
+> > Differenz zwischen WTA und dem Preis, aufsummiert über alle gehandelte Einheiten
 > ![[Pasted image 20261022151218.png]]
 
 Die Produzentenrente entspricht nicht dem Gewinn, da diese die Fixkosten nicht beinhaltet
@@ -20,7 +20,7 @@ Die Produzentenrente entspricht nicht dem Gewinn, da diese die Fixkosten nicht b
 > --> Zahlungsbereitschaft - Willingness to Accept (WTA)
 > ${}W = (ZB - \text{gezahlter Betrag}) + (\text{erhaltener Betrag} - WTA){}$
 > Da gezahlter Betrag = erhaltener Betrag: **${}W = ZB - WTA{}$** = **Handelsgewinn**
-> Waurm ist diese im Gleichgwewict maximal?
+> Warum ist diese im Gleichgewicht maximal?
 
 
 > [!BUG] Effizienz
@@ -40,9 +40,9 @@ Neben Effizienz gibt es auch die Verteilungswirkung:
 
 
 > [!NOTE] Preisobergrenze
-> Eine Preisobergrenze (${}P_{l}{}$) legt den HÖchsten Preis, fest der für ein Gut bezahlt werden kann
+> Eine Preisobergrenze (${}P_{l}{}$) legt den höchsten Preis, fest der für ein Gut bezahlt werden kann
 
-**Bindende Preisobergrenze:** Eine Preisobergrenze beifnflusst den Makrt nur, wenn dieser unter dem Gleichgewichtspreis ${}P^* >P_{l}{}$ 
+**Bindende Preisobergrenze:** Eine Preisobergrenze beeinflusst den Markt nur, wenn dieser unter dem Gleichgewichtspreis ${}P^* >P_{l}{}$ 
 
 >![[Pasted image 20261023154409.png]]
 >Es entsteht ein Nachfrageüberhang --> Preis steigt bis zu ${}P_{l}{}$ --> Gleichgewicht wandert zu ${}Q_{l}{}$
@@ -66,11 +66,11 @@ Neben Effizienz gibt es auch die Verteilungswirkung:
 
 Eine Preisobergrenze wird die Konsumentenrente eher verringern, wenn das Angebot elastisch ist.
 ![[Pasted image 20261023165242.png]]
-Da ZB bei ${}Q_{l}{}$ $_{}{>P^*}$, gibt es Anreize für Kosumenten Ressourcen aufzuwenden um das Gut zu erhalten
+Da ZB bei ${}Q_{l}{}$ $_{}{>P^*}$, gibt es Anreize für Konsumenten Ressourcen aufzuwenden um das Gut zu erhalten
 bspw. Bestechung, Wartelisten oder Versteckte Zahlungen
 
 **Anbieter haben einen Anreiz Qualität zu reduzieren**
---> Nachfrage sinkt --> weniger Konsumentenrente --> weniger Wohlfahrt (voraussetzung Produzenten können noch ${}Q_{l}{}$ zu ${}P_{l}{}$ verkaufen)
+--> Nachfrage sinkt --> weniger Konsumentenrente --> weniger Wohlfahrt (Voraussetzung Produzenten können noch ${}Q_{l}{}$ zu ${}P_{l}{}$ verkaufen)
 
 **Preise für nicht regulierte Substitute steigen** wahrscheinlich
 --> schadet denjenigen Konsumenten, die das regulierte Gut nicht mehr kaufen
@@ -81,4 +81,4 @@ bspw. Bestechung, Wartelisten oder Versteckte Zahlungen
 > 2. **Effizienz:** Die Konsumenten, die das Gut erhalten, sind nicht unbedingt diejenigen mit der **höchsten ZB** (Gesamtwohlfahrt nicht maximal)
 
 
-NACHFRAGEELASTIZIÄZ GUCKEN
+NACHFRAGEELASTIZITÄT GUCKEN

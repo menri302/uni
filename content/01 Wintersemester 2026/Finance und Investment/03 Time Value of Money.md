@@ -53,7 +53,7 @@ share_updated: 2026-11-01T18:50:16+01:00
 > The PV of a cash flow stream equals the **sum of the PVs** of the single cash flows
 
 ## Calculating the NPV
-Using the three rules we an compare the costs and benefits occuring at multiplepoints in time using the NPV
+Using the three rules we can compare the costs and benefits occurring at multiple points in time using the NPV
 
 **Example**: invest 1,000USD in your friend's tech start-up today, she pays back 500USD at the end of each of the next three years, market interest rate 10% → accept?
 
@@ -75,7 +75,7 @@ ${}NPV=-1000+\frac{500}{1.1^{1}}+\frac{500}{1.1^{2}}+\frac{500}{1.1^{3}}=243.43>
 
 
 # Annuities
-**Annuity** (Annuität): same cash flow C every year, but **ends after N payments** (unlike a perpetuity) - "ewige" Rente bis jahr n
+**Annuity** (Annuität): same cash flow C every year, but **ends after N payments** (unlike a perpetuity) - "ewige" Rente bis Jahr n
 
 > [!NOTE] Present Value of an annuity
 > ${}PV=\frac{C}{(1+r)^{1}}+\frac{C}{(1+r)^{2}}+\dots+\frac{C}{(1+r)^{N}}=\sum_{n=1}^{N}\frac{C}{(1+r)^{n}}=C*\frac{1}{r}\left(1-\frac{1}{(1+r)^{N}}\right){}$

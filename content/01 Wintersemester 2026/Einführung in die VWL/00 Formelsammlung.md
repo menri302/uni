@@ -47,17 +47,17 @@ $$
 
 ---
 
-## 4 Externalitäten ([[01 Wintersemester 2026/Einführung in die VWL/04 Externatlitäten|Kap. 04]])
+## 4 Externalitäten ([[01 Wintersemester 2026/Einführung in die VWL/04 Externalitäten|Kap. 04]])
 
 | Größe | Formel |
 | --- | --- |
-| [[01 Wintersemester 2026/Einführung in die VWL/04 Externatlitäten#Was sind Externalitäten\|Soziale Grenzkosten]] | $SGK = PGK + GS$, $\;PGN = SGN = ZB$ |
-| [[01 Wintersemester 2026/Einführung in die VWL/04 Externatlitäten#Was sind Externalitäten\|Marktgleichgewicht]] | $ZB = PGK \Rightarrow Q^*$ |
-| [[01 Wintersemester 2026/Einführung in die VWL/04 Externatlitäten#Was sind Externalitäten\|Soziales Optimum]] | $ZB = SGK \Rightarrow Q^{**}$ |
-| [[01 Wintersemester 2026/Einführung in die VWL/04 Externatlitäten#Was sind Externalitäten\|Wohlfahrt im Markt-GG]] | $ABE - BFC = \int_{0}^{Q^*} (ZB - SGK) \, dQ$ |
-| [[01 Wintersemester 2026/Einführung in die VWL/04 Externatlitäten#Was sind Externalitäten\|Wohlfahrt im Optimum]] | $ABE = \int_{0}^{Q^{**}} (ZB - SGK) \, dQ$ |
-| [[01 Wintersemester 2026/Einführung in die VWL/04 Externatlitäten#Was sind Externalitäten\|Wohlfahrtsverlust]] | $BFC = \int_{Q^{**}}^{Q^*} (SGK - ZB) \, dQ$ |
-| [[01 Wintersemester 2026/Einführung in die VWL/04 Externatlitäten#Staatliche Maßnahmen gegen Externalitäten\|Pigou-Steuer]] | $t = GS \Rightarrow PGK + t = SGK$ |
+| [[01 Wintersemester 2026/Einführung in die VWL/04 Externalitäten#Was sind Externalitäten\|Soziale Grenzkosten]] | $SGK = PGK + GS$, $\;PGN = SGN = ZB$ |
+| [[01 Wintersemester 2026/Einführung in die VWL/04 Externalitäten#Was sind Externalitäten\|Marktgleichgewicht]] | $ZB = PGK \Rightarrow Q^*$ |
+| [[01 Wintersemester 2026/Einführung in die VWL/04 Externalitäten#Was sind Externalitäten\|Soziales Optimum]] | $ZB = SGK \Rightarrow Q^{**}$ |
+| [[01 Wintersemester 2026/Einführung in die VWL/04 Externalitäten#Was sind Externalitäten\|Wohlfahrt im Markt-GG]] | $ABE - BFC = \int_{0}^{Q^*} (ZB - SGK) \, dQ$ |
+| [[01 Wintersemester 2026/Einführung in die VWL/04 Externalitäten#Was sind Externalitäten\|Wohlfahrt im Optimum]] | $ABE = \int_{0}^{Q^{**}} (ZB - SGK) \, dQ$ |
+| [[01 Wintersemester 2026/Einführung in die VWL/04 Externalitäten#Was sind Externalitäten\|Wohlfahrtsverlust]] | $BFC = \int_{Q^{**}}^{Q^*} (SGK - ZB) \, dQ$ |
+| [[01 Wintersemester 2026/Einführung in die VWL/04 Externalitäten#Staatliche Maßnahmen gegen Externalitäten\|Pigou-Steuer]] | $t = GS \Rightarrow PGK + t = SGK$ |
 
 ---
 

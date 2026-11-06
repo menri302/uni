@@ -1,6 +1,6 @@
-Frage: **Wie werden knapope Ressourcen am besten verwendet?** 
+Frage: **Wie werden knappe Ressourcen am besten verwendet?** 
 Analyse dieser Frage mittels:
-1. **Beschränkungen**: Welche Entscheiodugnen sind möglich?
+1. **Beschränkungen**: Welche Entscheidungen sind möglich?
 2. **Präferenzen**: Wie gut sind verschiedene Handlungsalternativen
 
 # Beschränkungen

@@ -71,14 +71,14 @@
 
 # Prognosemethoden
 ## Zeitreihenanalyse
-Idee: Fortschreibung eines Trends, auch mit mehreren Faktorne möglich
+Idee: Fortschreibung eines Trends, auch mit mehreren Faktoren möglich
 
 ## Stichprobenanalyse
 Idee: Hochrechnungen von Beobachtungen
-Daraus resultierende Frage: gewichteter oder einfacher Durchschnitt oder Durchschnittsrendite eines Unternehmens oder des gesamt eingesetzen Branchenkapitals
+Daraus resultierende Frage: gewichteter oder einfacher Durchschnitt oder Durchschnittsrendite eines Unternehmens oder des gesamt eingesetzten Branchenkapitals
 
 ## Weitere.
-**Delphi Methode**: 1. Meinung wird abgegeben 2. Meinungsgeber wird mit Gruppenmeinungen konfrontiert 3. weitere Meinungsabgebung
+**Delphi Methode**: 1. Meinung wird abgegeben 2. Meinungsgeber wird mit Gruppenmeinungen konfrontiert 3. weitere Meinungsabgabe
 **(Kunden)Befragungen**
 **(Kunden)Beobachtungen**
 

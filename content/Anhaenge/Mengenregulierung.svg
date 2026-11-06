@@ -1,44 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="Helvetica, Arial, sans-serif">
-<style>.ax{stroke:#333;stroke-width:1.2} .d{stroke:#666;stroke-width:1;stroke-dasharray:4 4} .l{font-size:14px;fill:#333} .b{font-size:15px;font-weight:bold;fill:#222} .h{font-size:17px;font-weight:bold;fill:#222}</style>
-<rect width="760" height="470" fill="#ffffff"/>
-<text x="380" y="28" class="h" text-anchor="middle">Mengenregulierung (Quote bei Q**)</text>
-<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker>
-<marker id="ag" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c0392b"/></marker></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" width="760" height="600" font-family="Helvetica, Arial, sans-serif">
+<style>.ax{stroke:#333;stroke-width:1.2} .d{stroke:#666;stroke-width:1;stroke-dasharray:4 4} .l{font-size:14px;fill:#333} .s{font-size:13px;fill:#333} .b{font-size:15px;font-weight:bold;fill:#222} .h{font-size:17px;font-weight:bold;fill:#222} .f{font-size:16px;font-weight:bold;fill:#222}</style>
+<rect width="760" height="600" fill="#ffffff"/>
+<text x="380" y="28" class="h" text-anchor="middle">Mengenregulierung bei negativer Externalität (Quote bei Q**)</text>
+<defs>
+<marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker>
+<marker id="ag" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c0392b"/></marker>
+<pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#f6e3d6"/><line x1="0" y1="0" x2="0" y2="7" stroke="#c0602b" stroke-width="1.6"/></pattern>
+</defs>
+
+<!-- Flächen -->
+<!-- A: Konsumentenrente -->
+<polygon points="80,80 257.8,186.7 80,186.7" fill="#bcd9c6"/>
+<!-- B: Umverteilung KR -> PR -->
+<rect x="80" y="186.7" width="177.8" height="57.5" fill="#e3cfa8"/>
+<!-- E: Produzentenrente (Rest) -->
+<polygon points="80,244.2 257.8,244.2 257.8,277.8 80,340" fill="#cdc8e6"/>
+<!-- C + D: wegfallende Handelsgewinne -->
+<polygon points="257.8,186.7 353.7,244.2 257.8,277.8" fill="url(#hatch)"/>
+<!-- F: vermiedener Wohlfahrtsverlust -->
+<polygon points="257.8,186.7 353.7,114.8 353.7,244.2" fill="#9fd3a9" fill-opacity="0.85"/>
+
+<text x="125" y="160" class="f">A</text>
+<text x="160" y="221" class="f">B</text>
+<text x="160" y="290" class="f">E</text>
+<text x="272" y="236" class="b">C</text>
+<text x="272" y="263" class="b">D</text>
+<text x="318" y="200" class="f">F</text>
+
 <!-- Achsen -->
 <line x1="80" y1="400" x2="80" y2="45" class="ax" marker-end="url(#ar)"/>
 <line x1="80" y1="400" x2="690" y2="400" class="ax" marker-end="url(#ar)"/>
 <text x="62" y="55" class="b">P</text>
 <text x="690" y="425" class="b">Q</text>
+
+<!-- Hilfslinien -->
+<line x1="80" y1="186.7" x2="257.8" y2="186.7" class="d"/>
+<line x1="257.8" y1="277.8" x2="257.8" y2="400" class="d"/>
+<line x1="80" y1="244.2" x2="353.7" y2="244.2" class="d"/>
+<line x1="353.7" y1="114.8" x2="353.7" y2="400" class="d"/>
+
 <!-- Nachfrage -->
 <line x1="80" y1="80" x2="620" y2="404" stroke="#4a7bd0" stroke-width="2"/>
 <text x="560" y="350" class="l">Qᵈ = PGN = SGN</text>
-<!-- PGK -->
-<line x1="80" y1="340" x2="650" y2="140.5" stroke="#4a7bd0" stroke-width="2"/>
-<text x="655" y="138" class="l">PGK</text>
+<!-- PGK (ursprüngliches Angebot) -->
+<line x1="80" y1="340" x2="650" y2="140.5" stroke="#4a7bd0" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="520" y="214" class="l">PGK (urspr. Angebot)</text>
 <!-- SGK -->
 <line x1="80" y1="320" x2="440" y2="50" stroke="#c0392b" stroke-width="2"/>
 <text x="448" y="55" class="l" fill="#c0392b">SGK = PGK + GS</text>
 <!-- GS Pfeil -->
 <line x1="420" y1="219" x2="420" y2="70" stroke="#c0392b" stroke-width="1.2" marker-end="url(#ag)" marker-start="url(#ag)"/>
 <text x="428" y="150" class="l" fill="#c0392b">GS</text>
+
 <!-- Angebot bei Mengenregulierung -->
 <polyline points="80,340 257.8,277.8 257.8,60" fill="none" stroke="#2e9e4f" stroke-width="5" stroke-opacity="0.75"/>
 <rect x="264" y="66" width="216" height="38" fill="#ffffff" fill-opacity="0.9"/>
 <text x="268" y="80" class="l" fill="#2e9e4f" font-weight="bold">Qˢ bei Mengenregulierung</text>
 <text x="268" y="97" class="l" fill="#2e9e4f">(= PGK bis Q**, dann senkrecht)</text>
+
 <!-- Gleichgewichte -->
-<line x1="80" y1="186.7" x2="257.8" y2="186.7" class="d"/>
-<line x1="257.8" y1="186.7" x2="257.8" y2="400" class="d"/>
-<line x1="353.7" y1="244.2" x2="353.7" y2="400" class="d"/>
-<line x1="80" y1="244.2" x2="353.7" y2="244.2" class="d"/>
 <circle cx="257.8" cy="186.7" r="5" fill="#222"/>
-<text x="232" y="180" class="b">B</text>
+<text x="226" y="178" class="b">B'</text>
 <circle cx="353.7" cy="244.2" r="5" fill="none" stroke="#222" stroke-width="1.5"/>
-<text x="362" y="240" class="b">C</text>
+<text x="362" y="258" class="b">C'</text>
 <text x="40" y="191" class="l">P**</text>
 <text x="48" y="249" class="l">P*</text>
 <text x="245" y="420" class="l">Q**</text>
 <text x="343" y="420" class="l">Q*</text>
-<text x="80" y="445" class="l">Ohne Quote: Gleichgewicht C (Nachfrage = PGK) → Überproduktion.</text>
-<text x="80" y="463" class="l">Mit Quote Q**: effizientes Gleichgewicht B (Nachfrage = SGK).</text>
+
+<!-- Legende -->
+<rect x="80" y="445" width="16" height="16" fill="#bcd9c6"/>
+<text x="104" y="458" class="s">A: Konsumentenrente</text>
+<rect x="80" y="470" width="16" height="16" fill="#e3cfa8"/>
+<text x="104" y="483" class="s">B: Umverteilung KR → PR (Quotenrente)</text>
+<rect x="80" y="495" width="16" height="16" fill="#cdc8e6"/>
+<text x="104" y="508" class="s">E: Produzentenrente (Rest)</text>
+<rect x="400" y="445" width="16" height="16" fill="url(#hatch)"/>
+<text x="424" y="458" class="s">C + D: wegfallende Handelsgewinne</text>
+<rect x="400" y="470" width="16" height="16" fill="#9fd3a9"/>
+<text x="424" y="483" class="s">F: vermiedener Wohlfahrtsverlust</text>
+<text x="424" y="508" class="s" fill="#c0392b">C + D + F: vermiedener Schaden für Dritte</text>
+
+<text x="80" y="545" class="l">Ohne Quote: Gleichgewicht C' (Nachfrage = PGK) → Überproduktion, Wohlfahrtsverlust F.</text>
+<text x="80" y="565" class="l">Mit Quote Q**: Gleichgewicht B' (Nachfrage = SGK) → effizient. C + D gehen zwar verloren,</text>
+<text x="80" y="585" class="l">sind aber kleiner als der vermiedene Schaden (C + D + F) → Nettogewinn F.</text>
 </svg>

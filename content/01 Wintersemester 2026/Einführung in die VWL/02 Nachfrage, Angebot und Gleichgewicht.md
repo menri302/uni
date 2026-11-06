@@ -4,7 +4,7 @@
 > Ein Markt besteht aus einer **Gruppe von Käufern** und **Anbietern** eines **spezifischen Gutes**, sowie den **Regeln und Bedingungen des Handels.**
 
  In einem perfekten Wettbewerbsmarkt:
-1. sind alle verfügbaren **Güter homogen**, sodass Käufer certeris paribus **keine Anbieterpräferenz** haben
+1. sind alle verfügbaren **Güter homogen**, sodass Käufer ceteris paribus **keine Anbieterpräferenz** haben
 2. ist die Zahl der Käufer/Anbieter so groß, als dass **kein einzelner Marktteilnehmer den Marktpreis beeinflussen** kann
 3. hängt der **Preis weder von Identität des Käufers/Kaufmenge ab**
 4. Alle Marktteilnehmer haben die **gleichen Informationen**
@@ -13,7 +13,7 @@ Zusätzliche Annahme: Gesetz des abnehmenden Grenznutzens
 # 2. Nachfrageverhalten
 ## 2.1 Nachfragekurven
 
-> [!NOTE] Individuelle Ncahfrage
+> [!NOTE] Individuelle Nachfrage
 > ${}Q^d_{i}{}$ = Menge eines Gutes, die ein Käufer **i** optimalerweise nachfragt (**d**)  
 >> Einflussfaktoren:
 > Kategorie 1: **Preis P** des Gutes
@@ -36,15 +36,15 @@ Gesamtnutzen = ${}v(q) + m-P*q{}$  (wobei ${}m-P*q{}$ = Nutzen aus alternativen 
 > (Eine weitere Einheit lohnt sich, wenn sie dir mindestens so viel Nutzen bringt, wie sie kostet.)
 
 > [!BUG] Willingness to Pay (WTP) - Zahlungsbereitschaft (ZB)
-> ${}w_{i}{}$ ist der maximale Preis, den ein Nachfrager bereit wäre fur die ${}i{}$-te Einheit des Gutes zu zahlen. (In diesem fall P)
+> ${}w_{i}{}$ ist der maximale Preis, den ein Nachfrager bereit wäre für die ${}i{}$-te Einheit des Gutes zu zahlen. (In diesem Fall P)
 
-Daraus folgt: m Optimum kauft ein Konsument alle Einheiten des Gutes, für die seine ZB den Preis übersteigt. D.h. die ZB für die letzte gekaufte Einheit = P.
+Daraus folgt: Im Optimum kauft ein Konsument alle Einheiten des Gutes, für die seine ZB den Preis übersteigt. D.h. die ZB für die letzte gekaufte Einheit = P.
 Da ${}Q_{i}^d \in \mathbb{R}{}$ ergibt sich folgender Graph:
 ![[Pasted image 20261015180141.png]]
 Kurve: Zahlungsbereitschaft für die **x-te Einheit**, also der Höchstpreis für eine zusätzliche Einheit, wenn man schon x − 1 hat 
 > [!BUG] Beispiel Nachfrage
 > ${}Q^d_{i} = 350 - 50 \cdot P{}$
-> --> invertiert (P auf der vertikalen Achse): **${}P = 7 - \frac{1}{50} \cdot Q^d_{i}{}$** (inverse Nachfrage, gleichung Umgestellt)
+> --> invertiert (P auf der vertikalen Achse): **${}P = 7 - \frac{1}{50} \cdot Q^d_{i}{}$** (inverse Nachfrage, Gleichung umgestellt)
 > --> Steigung ${}-\frac{1}{50}{}$, Achsenabschnitt 7
 > --> Zahlungsbereitschaft der 100. Einheit: 5 €, der 50. Einheit: 6 €
 > Anmerkung: Die fallende Zahlungsbereitschaft spiegelt den abnehmenden Grenznutzen wider.
@@ -56,16 +56,16 @@ Kurve: Zahlungsbereitschaft für die **x-te Einheit**, also der Höchstpreis fü
 
 ### Verschiebung der Nachfragekurve
 1. **Präferenzen**
-   Wenn sich Konsumenten bspw. der Erderwärmung bewusst werden, könnte sich die Nachfragekurve nach loinks verschieben (verringern)
+   Wenn sich Konsumenten bspw. der Erderwärmung bewusst werden, könnte sich die Nachfragekurve nach links verschieben (verringern)
 2. **Einkommen**
    Normales gut: Nachfrage steigt mit höherem Einkommen
    inferiores gut: Nachfrage sinkt mit steigendem Einkommen
    ![[Pasted image 20261022140550.png]]
 3. **Preis verbundener Produkte**
-   Substitute: Wenn der Preisrückgang eines Gutes die Nachfrage nach einem anderen Gut verringert (ersetzen sich gegenseitig) - cola/pepsi
-   Komplemente: Wenn der Preisrückgang eines Gutes die Nachfrage nach einem anderen Gut erhöht (brauchen sich gegenseitig) - auto/benzin
+   Substitute: Wenn der Preisrückgang eines Gutes die Nachfrage nach einem anderen Gut verringert (ersetzen sich gegenseitig) - Cola/Pepsi
+   Komplemente: Wenn der Preisrückgang eines Gutes die Nachfrage nach einem anderen Gut erhöht (brauchen sich gegenseitig) - Auto/Benzin
 4. **Größe und Struktur der Bevölkerung**
-   "Je größer die Bevölkerung desto höher die Nachfrage citeris paribus"
+   "Je größer die Bevölkerung desto höher die Nachfrage ceteris paribus"
 5. **Erwartung**
    Menschen kaufen weniger wenn sie einen Abschwung erwarten
 

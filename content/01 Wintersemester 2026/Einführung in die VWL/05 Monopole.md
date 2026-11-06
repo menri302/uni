@@ -6,7 +6,7 @@
 **1. Rechtliche Zutrittsschranken**, wie Patente oder Urheberrechte
 **2. Kontrolle über eine Schlüsselressource**
 **3. Natürliche Monopole**, wenn ein einzelnes Unternehmen ein Gut für den ganzen markt zu niedrigeren Kosten produzieren kann als mehrere. (z.B. Wasserversorgung)
-**4. Switiching Cost**, Konsumenten müssen etwas aufgaben um zum Konkurrenten zu wechseln
+**4. Switching Cost**, Konsumenten müssen etwas aufgeben um zum Konkurrenten zu wechseln
 
 # Gewinnmaximierung durch einen Monopolisten
 **Konzept Residualnachfrage**: Die Nachfrage die bei den einzelnen Unternehmen ankommt:
@@ -102,7 +102,7 @@ Betrachte eine Einheit **unmittelbar nach $Q_{mon}$**, für die die Konsumenten 
 **1. Politische Maßnahmen zur Wettbewerbsförderung**
 - Kartellamt
 - Verbot von Verdrängungspreisen
-- Verbot Wettbewerbswiedriger Strategien
+- Verbot wettbewerbswidriger Strategien
 - Fusionskontrolle
 
 **2. Verstaatlichung**: Die Regierung leitet das Monopol
@@ -127,13 +127,13 @@ Kosten des IPP: **Verlust von der Gesamtrente**
    - Mit IPP haben Innovatoren Monopolmacht 
      --> Investmentrendite größer
 2. **Negativer Effekt**
-   - solange Innovationen durch IPP geschützt sind können sie nicht für Folgeinvestionen genutzt werden
+   - solange Innovationen durch IPP geschützt sind können sie nicht für Folgeinvestitionen genutzt werden
 
 **Ergebnis**: 
 - Länder mit laschem IPP fokussieren sich auf Entwicklungen die einfach Geheimgehalten werden können
 - Länder mit strengen IPP fokussiere sich auch auf Entwicklungen die einfach nachgeahmt werden können
 - Örtliche IPP bringen wenig Veränderung, da viele Produkte international vertrieben werden (wenig Einfluss auf heimische RnD)
---> IPP beinflusst vmtl v.a. die Richtung, statt die Größe der Investitionen
+--> IPP beeinflusst vmtl v.a. die Richtung, statt die Größe der Investitionen
 --> IPP muss Industriespezifisch zugeschnitten werden
 --> IPP senkt vmtl. wissenschaftliche Forschung in patentiertem Gebiet
 

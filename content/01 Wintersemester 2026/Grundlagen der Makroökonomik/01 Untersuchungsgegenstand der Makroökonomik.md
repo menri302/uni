@@ -45,7 +45,7 @@ Beispiele: ==Höhe und Dauer der Arbeitslosenunterstützung==, ==Kündigungsschu
 
 ## Inflation
 
-> [!BUG] Definiton
+> [!BUG] Definition
 > **Anhaltender Anstieg des allgemeinen Preisniveaus.**
 
 ### BIP-Deflator vs. VPI
@@ -70,7 +70,7 @@ Entwicklungen müssen nicht übereinstimmen, da:
 
 ## kurze, mittlere, lange Frist
 1. **kurze Frist**
-   v.A. detemerniert durch ==Schwankungen der Güternachfrage==
+   v.A. determiniert durch ==Schwankungen der Güternachfrage==
    -->wichtige Determinanten gesamtwirtschaftlicher Nachfrage: Konsum, Investition, Staatsausgaben, Nettoexport
 2. **Mittlere Frist**
    die Produktion kehrt zum **Produktionspotenzial** (==Normalauslastung des Güterangebots==) zurück

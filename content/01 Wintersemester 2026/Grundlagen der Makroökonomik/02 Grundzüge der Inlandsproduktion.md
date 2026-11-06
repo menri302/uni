@@ -5,7 +5,7 @@
 | Größe                                            | Berechnung                                                                                                                                                                   | Bedeutung                                                                                                            |
 | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **BIP** (Bruttoinlandsprodukt)                   | Marktwert aller im Inland produzierten Waren und Dienstleistungen abzgl. Vorleistungen (z.B. Rohstoffe, Vorprodukte)                                                         | Produktion innerhalb der Landesgrenzen<br>                                                                           |
-| **NIP** (Nettoinslandsprodukt)                   | BIP - Abschreibungen                                                                                                                                                         |                                                                                                                      |
+| **NIP** (Nettoinlandsprodukt)                   | BIP - Abschreibungen                                                                                                                                                         |                                                                                                                      |
 | **BWS** (Bruttowertschöpfung)                    | BIP - Gütersteuern (z.B. Mehrwertsteuer) + Gütersubventionen (z.B. staatliche Zuschüsse)                                                                                     | Wertschöpfung im Produktionsprozess                                                                                  |
 | **BNE** (Bruttonationaleinkommen)                | BIP + Saldo der Primäreinkommen aus der übrigen Welt                                                                                                                         | Einkommen der Inländer, unabhängig vom Ort                                                                           |
 | **NNE** (Nettonationaleinkommen)                 | BNE - Abschreibungen                                                                                                                                                         | Mehrwert, der für Ausschüttungen zur Verfügung steht (Primäreinkommen)                                               |
@@ -59,7 +59,7 @@ Antwort hängt von der konkreten Fragestellung ab:
 
 ### Konsumausgaben der privaten Haushalte
 "Waren- und Dienstleistungskäufe der inländischen privaten Haushalte für Konsumzwecke."
-- Auch einzelne unterstellte Käufe bspw. kalkulatorische Nutzungskosten für Eigentumswohnungen enthalten (nicht aber Grundstücks/Gebäudekäufe zu Investitionszwekcen)
+- Auch einzelne unterstellte Käufe bspw. kalkulatorische Nutzungskosten für Eigentumswohnungen enthalten (nicht aber Grundstücks/Gebäudekäufe zu Investitionszwecken)
 
 ### Konsumausgaben des Staates
 "Umfasst die der Allgemeinheit ohne spezielles Entgelt zur Verfügung gestellten Dienst- und Sachleistungen."
@@ -91,7 +91,7 @@ Ausrüstungen (Maschinen, Geräte, Fahrzeuge)
 
 
 > [!BUG] Reales BIP (preisbereinigtes BIP)
-> Maß für die Menge der gesamtwirtcshafltichen Produktionen (im Vergleich zu Vergleichsjahren) - gemessen an einem Basisjahr
+> Maß für die Menge der gesamtwirtschaftlichen Produktionen (im Vergleich zu Vergleichsjahren) - gemessen an einem Basisjahr
 
 ![[Pasted image 20261101115134.png|876]]![[Pasted image 20261101115154.png|892]]**Differenz Schwarz/Rot = Inflation**
 

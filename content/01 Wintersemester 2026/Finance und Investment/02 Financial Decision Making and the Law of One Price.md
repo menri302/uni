@@ -12,7 +12,7 @@ Solution 1: direct comparison (+5000)
 
 2 methods of comparison: Value of investment **today** vs value of investment **in a year**
 **discount rate**: risk-free interest rate (for example 7%)
-**discount factor:** ${}\frac{1}{(1+r_{f})}{}$ means of calculating todays value of future cash flow
+**discount factor:** ${}\frac{1}{(1+r_{f})}{}$ means of calculating today's value of future cash flow
 
 
 | ${}t_{o }{}$ (invest now) - PV                       | m${}t_{1}{}$ (investment in a year) - FV                  |
@@ -25,9 +25,9 @@ Solution 1: direct comparison (+5000)
 > Decision remains the same regardless whether you look at **Present value (PV)** or **Future value (FV)**
 
 # NPV
-Investments crete flows which need to be evaluated
-**Problems:** hard to quanitfy, occuring at different points in time, different risks
-**Solution**: NPV - Evalutating in terms of todays money
+Investments create flows which need to be evaluated
+**Problems:** hard to quantify, occurring at different points in time, different risks
+**Solution**: NPV - Evaluating in terms of today's money
 NPV = PV (${}Benefits_{inv}{}$) – PV (Costs${}_{inv}{}$)
 
 **Example**: risk-free interest rate of 8% on your bank account, risk-free 550USD investment return at 500USD investment after one year
@@ -41,7 +41,7 @@ NPV = PV (${}Benefits_{inv}{}$) – PV (Costs${}_{inv}{}$)
 > NPV > 0 Investment creates additional value --> run investment
 > Positive NPV means an investment is a good decision regardless of current cash needs
 > NPV = 0 Investment creates no additional value --> indifferent
-> NPV < 0 Investment creates negative value --> do not run ivestment
+> NPV < 0 Investment creates negative value --> do not run investment
 
 # Arbitrage 
 > [!NOTE] Arbitrage

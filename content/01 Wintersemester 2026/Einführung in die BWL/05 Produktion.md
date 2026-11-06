@@ -169,3 +169,24 @@ $\overline{K}_F$: Strich = **Konstante** --> hängt nicht von $x$ ab
 - im Bild: Tangente steiler als Fahrstrahl --> $GK > DK$ --> DK **steigen**
 
 
+
+---
+
+# Black Box Produktion
+
+$$\text{Faktoren (Inputs)} \;\Longrightarrow\; \boxed{\;\text{Produktion}\;} \;\Longrightarrow\; \text{Produkte (Outputs)}$$
+
+**Frage:** Ist die „Black Box" hinreichend bekannt, wenn $K(x)$ berechnet ist?
+--> **Nein!** (z.B. zeitliche Abläufe, Lagerhaltung, ...)
+
+---
+
+# Weitere Aspekte
+
+- **Produktqualität** (Kap. 4 Absatz) --> bestimmt auch die **Qualitätsanforderungen** in der Produktion
+- **Kosten senken** bringt **Risiken** mit sich --> v.a. bei **internationalen Lieferketten**
+- **Zielkonflikt** zwischen
+	- **Serien-/Fließfertigung**: auf Vorrat, **günstig**
+	- **Auftragsfertigung**: kundenindividuell, eher **teuer**
+	- --> **flexible Produktionstechnologie** wird wichtig
+

@@ -32,7 +32,7 @@
 **Weitere Prinzipien**:
 - Die Annahmen des Modells sollten **nicht widersprüchlich** sein
 - **Robustheit**. Die Ergebnisse und Hypothesen des Modells sollten sich nach kleinen Modifikationen des Modells nicht zu sehr verändern.
-- **Wiederlegbarkeit**: Jede Aussage muss theoretisch oder empirisch widerlegbar sein. (Abgrenzung wissenschaftliche Theorie vs. nicht-wissenschaftliche Theorie)
+- **Widerlegbarkeit**: Jede Aussage muss theoretisch oder empirisch widerlegbar sein. (Abgrenzung wissenschaftliche Theorie vs. nicht-wissenschaftliche Theorie)
   --> Unmöglich Hypothesen zu verifizieren, aber möglich sei zu widerlegen 
   --> Theorien sollten **mit Daten übereinstimmen** (Noch nicht widerlegt worden sein)
 
@@ -87,7 +87,7 @@ Abweichungen: Teils systematisch (bspw. Selbstkontrollproblem)
 > [!BUG] Opportunitätskosten
 > Opportunitätskosten sind die Kosten der **nächstbesten alternativen Nutzung** einer Ressource
 
-Opportunitätskosten der Zeit ≙ Mindestens nettonutzen dieser Zeit für Arbeit
+Opportunitätskosten der Zeit ≙ Mindestens Nettonutzen dieser Zeit für Arbeit
 
 ### Komparative Statik
 
@@ -112,7 +112,7 @@ ${}MC=\frac{dC}{dx}=-30+10x{}$ ${}\iff x=3{}$ (MC = Marginal Cost)
 
 ## 2. Gleichgewicht
 
-> [!BUG] Gleichtgewicht
+> [!BUG] Gleichgewicht
 > Ein Gleichgewicht ist eine Situation, in der **kein Entscheidungsträger von einer Verhaltensänderung profitieren könnte**, d.h. in der alle Entscheidungsträger gleichzeitig optimiert haben
 > --> Dauerhaft, da niemand einen Anreiz hat etwas zu ändern
 
@@ -121,7 +121,7 @@ ${}MC=\frac{dC}{dx}=-30+10x{}$ ${}\iff x=3{}$ (MC = Marginal Cost)
 - Theoretische Modelle liefern Hypothesen über kausale Beziehungen
 - Kausale Effekte sind per se ceteris-paribus (nur eine exogene Variable)
 
-> [!NOTE] Wiederlegung
+> [!NOTE] Widerlegung
 > ceteris-paribus Beziehungen können nur durch die empirische Identifikation eines (widersprechenden) **kausalen Effekts** widerlegt werden
 > >**Wichtig**: Korrelation ${}\neq{}$ Kausalität 
 > >Wenn es eine oder mehrere fehlende Variable(n) gibt, die wenn sie einbezogen wurden - die Korrelation zweier Variablen erklären wurden.
