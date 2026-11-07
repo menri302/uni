@@ -26,8 +26,8 @@
 
 **Liability**
 - Unlimited → private assets are liable → capital comes more from private sources or bank loans (baker: the bank demands collateral, e.g. the private house)
-- Limited → only company assets are liable → attractive for investors (€1,000 in a stock corporation = maximum loss of €1,000)
   - If you become a partner, you are jointly and severally liable for the full amount (initially 100%, regardless of your share) → you must recover the excess internally from the other partners
+- Limited → only company assets are liable → attractive for investors (€1,000 in a stock corporation = maximum loss of €1,000)
 
 **Minimum capital**
 - **Creditor protection** with limited liability → minimum capital (GmbH: €25,000) – in insolvency, creditors are paid from this
@@ -123,7 +123,7 @@
 Agency problems result from **information asymmetries** and cause **inefficiencies**.
 
 **Managers vs. owners**
-  - Managers have little incentive to work in the stakeholders' interest if this goes against their **self-interest**
+  - Managers have little incentive to work in the shareholders' interest if this goes against their **self-interest**
   - Example: maximizing their own **salary**, **empire building**, **perks**
 
 **Stakeholders vs. stakeholders**

@@ -5,7 +5,7 @@
 > ${}I{}$: Bruttoinvestitionen
 > ${}X-IM{}$: Exporte minus Importe
 
-**Wir betrachte im folgenden eine Volkswirtschaft ohne ökonomische Beziehungen**
+**Wir betrachten im Folgenden eine Volkswirtschaft ohne außenwirtschaftliche Beziehungen** (geschlossene Volkswirtschaft)
 --> ${}X=IM=0{}$, ${}\text{BIP=BNE}{}$
 **Ferner**, dass die VW keine Abschreibungen vornimmt und somit keine Ersatzinvestitionen
 --> ${}\text{BIP=BNE=NIP=NNE}{}$, Bruttoinvestitionen=Nettoinvestitionen (fortan Investitionen)
@@ -29,7 +29,7 @@
 
 
 
-> [!BUG] Lineare Kostenfunktion
+> [!BUG] Lineare Konsumfunktion
 > ${}C=c_{0}+ c_{1}Y_{v}{}$ 
 > mit ${}c_{0}{}$ = **autonomer Konsum**, wenn verfügbares Einkommen = 0, dabei gilt ${}c_{0}>0{}$),
 > ${}c_{1}{}$ = **marginale Konsumneigung**: Effekt jedes zusätzlichen € auf den Konsum (${}0<c_{1}<1{}$)
@@ -38,7 +38,7 @@
 ![[Pasted image 20261101132633.png|395]]
 
 > [!NOTE] Fiskalpolitik
-> Entscheidung über die Höhe der Steuern ${}T{}$, werden als **Fiskalpolitik** bezeichnet
+> Entscheidungen über die Höhe der Steuern ${}T{}$ und der Staatsausgaben ${}G{}$ werden als **Fiskalpolitik** bezeichnet
 
 # Gütermarktmodell
 

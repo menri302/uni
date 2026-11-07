@@ -45,7 +45,7 @@ Neben Effizienz gibt es auch die Verteilungswirkung:
 **Bindende Preisobergrenze:** Eine Preisobergrenze beeinflusst den Markt nur, wenn dieser unter dem Gleichgewichtspreis ${}P^* >P_{l}{}$ 
 
 >![[Pasted image 20261023154409.png]]
->Es entsteht ein Nachfrageüberhang --> Preis steigt bis zu ${}P_{l}{}$ --> Gleichgewicht wandert zu ${}Q_{l}{}$
+>Der Preis wird von ${}P^*{}$ auf ${}P_{l}{}$ gedrückt --> bei ${}P_{l}{}$ besteht ein dauerhafter Nachfrageüberhang (**kein** neues Gleichgewicht) --> gehandelt wird nur die angebotene Menge ${}Q_{l}{}$ (die kürzere Marktseite bestimmt die Menge)
 >
 >Ohne ${}P_{l}{}$: ${}KR = A+B\land  PR=C+D+E\to W=A+B+C+D+E{}$ 
 >Mit ${}P_{l}{}$: ${}KR=A+C \land PR=E \to W=A+C+E{}$

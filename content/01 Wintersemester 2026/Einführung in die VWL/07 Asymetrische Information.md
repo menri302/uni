@@ -12,8 +12,8 @@ Beispiel: Gebrauchtwagenmarkt: Gute Autos (4000-5000€ Wert), schlechte Autos (
 
 **Szenario 2: Informationen ungleich verteilt - nur Verkäufer kennen Wert aller Autos**
 - Käufer bereit maximal den durchschnittlichen Preis der Autos (2500€) zu zahlen.
-  --> Liegt unter WTA der Käufer für Gute Autos
-  --> Verkaufen eine Guten Autos mehr
+  --> Liegt unter der WTA der Verkäufer für gute Autos (4000€)
+  --> Verkäufer guter Autos verkaufen keine Autos mehr
   --> Das Übrige Angeot ist die schlechtere, **adverse** Selektion der Autos
 - Käufer antizipieren, dass nur noch Autos mit niedrigem Wert angeboten werden
   --> kaufen nicht mehr (**unraveling**)

@@ -115,7 +115,8 @@ ${}PV=\frac{30000}{0.08-0.03}=600000{}$USD
 
 > [!NOTE] Present Value of a growing annuity
 > ${}PV=C*\frac{1}{r-g}\left(1-\left(\frac{1+g}{1+r}\right)^{N}\right){}$
-> → also works for ${}g\geq r{}$, because N is **finite** (unlike the growing perpetuity → ${}+\infty{}$)
+> → also works for ${}g>r{}$, because N is **finite** (unlike the growing perpetuity → ${}+\infty{}$)
+> → for ${}g=r{}$ the formula is undefined (division by 0) → then ${}PV=\frac{N*C}{1+r}{}$
 
 **Example (slides)**: save 10,000USD after your bachelor's, saving 5% more each year (salary growth), r = 4%, buy a home in 20 years → how much can you afford?
 1. **Present value** (here g > r!): ${}PV=10000*\frac{1}{0.04-0.05}\left(1-\left(\frac{1.05}{1.04}\right)^{20}\right)=210,930.44{}$USD

@@ -5,7 +5,7 @@
 
 > [!BUG] Definitionen
 > **Produktion und Wirtschaftswachstum**: Wirtschaftsleistung der gesamten Volkswirtschaft (bzw. Wachstumsrate)
-> **Arbeitslosenquote**: Anteil der Arbeitnehmer in der Volkswirtschaft, der in ==keinem Beschäftigungsverhältnis== steht, aber auf der ==Suche nach Beschäftigung== ist.
+> **Arbeitslosenquote**: Anteil der Erwerbspersonen in der Volkswirtschaft, der in ==keinem Beschäftigungsverhältnis== steht, aber auf der ==Suche nach Beschäftigung== ist.
 > **Inflationsrate**: Rate, mit der das ==durchschnittliche Preisniveau== aller Güter in der Volkswirtschaft im Zeitverlauf zunimmt.
 > **BIP**: (jährliche) Wertschöpfung als Gesamtwert aller Güter (abzüglich Vorleistungen) an, die innerhalb der Landesgrenzen einer Volkswirtschaft hergestellt wurden.
 
@@ -21,7 +21,7 @@ Weiteres Konzept: **Geldillusion** - Beobachtete Preise werden als Evidenz für 
 > ![[Pasted image 20261013204412.png]]
 
 **Erwerbspersonen** (L) = **Erwerbstätige** (N) + **Erwerbs-/Arbeitslose** (U)
-Erwerbs- bzw. Arbeitslosenquote: ${}u = \frac{U}{L}{=\frac{Erwerbspersonen}{ErwerwerbsArbeitlose }}$
+Erwerbs- bzw. Arbeitslosenquote: ${}u = \frac{U}{L}=\frac{\text{Erwerbs-/Arbeitslose}}{\text{Erwerbspersonen}}{}$
 
 
 | **Erwerbslose** (Statistisches Bundesamt)     | **Arbeitslose** (Bundesagentur für Arbeit)                                 |

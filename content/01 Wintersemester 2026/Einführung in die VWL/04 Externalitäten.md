@@ -45,17 +45,17 @@ hier: da sich Gleichgewicht auf PGK bezieht zeigt unter Einbezug des Grenzschade
 > Wenn es **klar definierte Eigentumsrechte** und **kostenlose Verhandlungen** gibt, dann können Verhandlungen zwischen der Partei, die die Externalität verursacht, und der Partei, die von der Externalität betroffen ist, eine **sozial optimale Situation** erreichen.
 
 > [!EXAMPLE] Beispiel: Fluss wird von Unternehmen verschmutzt
-> **Handelsgewinn einer Einheit** = P − PGK = ZB − GK (vertikaler Abstand Nachfrage ↔ Angebot)
+> **Handelsgewinn einer Einheit** (Unternehmen + Kunden) = ZB − PGK (vertikaler Abstand Nachfrage ↔ Angebot)
 >
 > **Fall 1 – Fluss gehört dem Unternehmen** (Start bei Q\*)
 > - Anwohner bieten **höchstens GS** für eine Einheit weniger
-> - Unternehmen + Kunden verlangen **mindestens P − PGK**
-> - Über Q\*\* gilt GS > P − PGK → Anwohner kaufen Einheiten **weg**
+> - Unternehmen + Kunden verlangen **mindestens ZB − PGK**
+> - Über Q\*\* gilt GS > ZB − PGK → Anwohner kaufen Einheiten **weg**
 >
 > **Fall 2 – Fluss gehört den Anwohnern** (Start bei 0)
-> - Unternehmen + Kunden bieten **höchstens P − PGK** für eine Einheit mehr
+> - Unternehmen + Kunden bieten **höchstens ZB − PGK** für eine Einheit mehr
 > - Anwohner akzeptieren, solange das Angebot **GS übersteigt**
-> - Unter Q\*\* gilt P − PGK > GS → Unternehmen kauft Einheiten **dazu**
+> - Unter Q\*\* gilt ZB − PGK > GS → Unternehmen kauft Einheiten **dazu**
 >
 > → In beiden Fällen ergeben Verhandlungen **Q\*\***
 
