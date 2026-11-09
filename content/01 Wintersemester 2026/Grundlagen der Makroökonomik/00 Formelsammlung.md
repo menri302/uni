@@ -2,19 +2,47 @@ Teil von Grundlagen der Makroökonomik
 
 # Formelsammlung Makro
 
+Aufbau je Kapitel: **Symbole** → **Formeln** → ggf. Vergleiche
+
 ---
 
 ## 1 Grundbegriffe ([[01 Wintersemester 2026/Grundlagen der Makroökonomik/01 Untersuchungsgegenstand der Makroökonomik|Kap. 01]])
 
+### Symbole Grundbegriffe
+
+| Symbol | Bedeutung |
+| --- | --- |
+| $L$ | Erwerbspersonen |
+| $N$ | Erwerbstätige |
+| $U$ | Arbeitslose |
+| $u$ | Arbeitslosenquote |
+
+### Formeln Grundbegriffe
+
 | Größe | Formel | Hinweis |
 | --- | --- | --- |
-| Erwerbspersonen | $L = N + U$ | $N$ = Erwerbstätige, $U$ = Erwerbs-/Arbeitslose |
+| Erwerbspersonen | $L = N + U$ | |
 | Arbeitslosenquote | $u = \frac{U}{L}$ | Arbeitslose / Erwerbspersonen |
 | 70er-Regel | $\text{Verdopplungszeit} \approx \frac{70}{\text{Wachstumsrate in \%}}$ | z. B. 2 % → ca. 35 Jahre |
 
 ---
 
 ## 2 Einkommenskonzepte ([[01 Wintersemester 2026/Grundlagen der Makroökonomik/02 Grundzüge der Inlandsproduktion|Kap. 02]])
+
+### Symbole Einkommenskonzepte
+
+| Symbol | Bedeutung |
+| --- | --- |
+| BIP / NIP | Brutto-/Nettoinlandsprodukt |
+| BWS | Bruttowertschöpfung |
+| BNE / NNE | Brutto-/Nettonationaleinkommen |
+| VE | Volkseinkommen |
+| $C$ | Konsum der Haushalte |
+| $I$ | Bruttoinvestitionen |
+| $G$ | Staatsausgaben |
+| $X - IM$ | Exporte − Importe |
+
+### Formeln Einkommenskonzepte
 
 | Größe | Berechnung |
 | --- | --- |
@@ -36,14 +64,25 @@ Teil von Grundlagen der Makroökonomik
 
 ## 3 Nominales vs. reales BIP ([[01 Wintersemester 2026/Grundlagen der Makroökonomik/02 Grundzüge der Inlandsproduktion|Kap. 02]])
 
+### Symbole BIP real und nominal
+
+| Symbol | Bedeutung |
+| --- | --- |
+| $BIP_t$ | nominales BIP |
+| $Y_t$ | reales BIP |
+| $P_t$ | BIP-Deflator ($P_0 = 1$) |
+| $X_t$ | Menge |
+| $g_{x,t}$ | Wachstumsrate von $x$ |
+| $\pi_t$ | Inflationsrate |
+
+### Formeln BIP real und nominal
+
 | Größe | Formel | Bedeutung |
 | --- | --- | --- |
 | Nominales BIP | $BIP_t = P_t \cdot Y_t$ | zu **aktuellen** Preisen |
 | Reales BIP | $Y_t = P_{0} \cdot X_t$ | zu Preisen des **Basisjahres** |
 | BIP-Deflator | $P_t = \frac{BIP_t}{Y_t}$ | Preisniveau der Produktion |
 | Basisjahr | $BIP_0 = Y_0$, $P_0 = 1$ | |
-
-**Wachstumsraten** (allgemein: $g_{x,t} = \frac{x_t - x_{t-1}}{x_{t-1}}$)
 
 | Wachstumsrate | Formel |
 | --- | --- |
@@ -57,7 +96,7 @@ g_{BIP,t} = \pi_t + g_{Y,t} + \pi_t \cdot g_{Y,t} \;\approx\; \pi_t + g_{Y,t}
 $$
 → nominales Wachstum ≈ Inflation + reales Wachstum (für kleine Werte)
 
-**BIP-Deflator vs. VPI**
+### Vergleich BIP-Deflator vs. VPI
 
 | | BIP-Deflator | VPI |
 | --- | --- | --- |
@@ -71,6 +110,27 @@ $$
 
 **Annahmen:** geschlossene VW ($X = IM = 0$), keine Abschreibungen, keine indirekten Steuern/Subventionen → BIP = BNE = NIP = NNE = VE = $Y$
 
+### Symbole Gütermarkt
+
+| Symbol | Bedeutung |
+| --- | --- |
+| $Y$ | Produktion = Einkommen |
+| $Z$ | Güternachfrage |
+| $C$ | Konsum |
+| $\bar I$ | Investitionen (exogen) |
+| $G$ | Staatsausgaben |
+| $T$ | Nettosteuern |
+| $t$ | Steuersatz ($0 < t < 1$) |
+| $Y_V$ | verfügbares Einkommen |
+| $S$ | Ersparnis |
+| $c_0$ | autonomer Konsum ($c_0 > 0$) |
+| $c_1$ | marginale Konsumneigung ($0 < c_1 < 1$) |
+| $\frac{1}{1 - c_1}$ | Multiplikator |
+| $Y_N$ | natürliches Produktionsniveau |
+| $dX$ | Änderung von $X$ |
+| $\frac{\partial Y}{\partial G}$ | partielle Ableitung |
+| $\left.\frac{dY}{dG}\right\|_{dT=0}$ | unter der Bedingung $dT = 0$ |
+
 ### Gleichungen
 
 | Typ | Gleichung | Bedeutung |
@@ -79,13 +139,6 @@ $$
 | Identität | $Y_V \equiv Y - T$ | verfügbares Einkommen |
 | Verhaltensgleichung | $C = c_0 + c_1 Y_V$ | Konsumfunktion |
 | Gleichgewicht | $Y = Z$ | Produktion = Nachfrage |
-
-| Symbol | Name | Typ |
-| --- | --- | --- |
-| $c_0$ | autonomer Konsum ($c_0 > 0$) | Parameter |
-| $c_1$ | marginale Konsumneigung ($0 < c_1 < 1$) | Parameter |
-| $G, T, \bar I$ | Staatsausgaben, Nettosteuern, Investitionen | exogen |
-| $Y$ | Produktion = Einkommen | endogen |
 
 ### Gleichgewicht
 
@@ -107,19 +160,35 @@ Gleichgewicht = Schnittpunkt mit der 45°-Linie ($Y = Z$). Änderung autonomer A
 
 | Änderung | Wirkung auf $Y$ | Beispiel $c_1 = 0{,}8$ |
 | --- | --- | --- |
-| $\Delta G$, $\Delta \bar I$, $\Delta c_0$ | $\Delta Y = \frac{1}{1 - c_1} \cdot \Delta$ | +1 → **+5** |
-| $\Delta T$ | $\Delta Y = \frac{-c_1}{1 - c_1} \cdot \Delta T$ | −1 → **+4** |
+| $dG$, $d\bar I$, $dc_0$ | $dY = \frac{1}{1 - c_1} \cdot d(\dots)$ | +1 → $Y$ **+5** |
+| $dT$ | $dY = -\frac{c_1}{1 - c_1} \cdot dT$ | Steuer −1 → $Y$ **+4** |
 
-### Multiplikator in Runden
-
-Jede Runde: $\Delta Y_n = c_1 \cdot \Delta Y_{n-1} = c_1^{\,n-1} \cdot \Delta G$
-
-| Runde | 1 | 2 | 3 | 4 | … | Summe |
-| --- | --- | --- | --- | --- | --- | --- |
-| $\Delta Y_n$ ($c_1 = 0{,}8$, $\Delta G = 1$) | 1 | 0,8 | 0,64 | 0,512 | → 0 | **5** |
+### Totales Differential & Finanzierung
 
 $$
-\Delta Y = \Delta G \cdot (1 + c_1 + c_1^2 + \dots) = \frac{1}{1 - c_1} \cdot \Delta G
+dY = \frac{\partial Y}{\partial G}\,dG + \frac{\partial Y}{\partial T}\,dT = \frac{1}{1 - c_1}\,dG - \frac{c_1}{1 - c_1}\,dT
 $$
 
-Pro Runde versickert der Anteil $1 - c_1$ als Ersparnis → am Ende gilt $\Delta S = (1 - c_1)\,\Delta Y = \Delta G$.
+| Finanzierung | Bedingung | Multiplikator $\frac{dY}{dG}$ | $c_1 = 0{,}8$, $dG = 1000$ |
+| --- | --- | --- | --- |
+| Kreditfinanziert | $dT = 0$ | $\frac{1}{1 - c_1}$ | $dY = 5000$ |
+| Steuerfinanziert | $dG = dT$ | $\frac{1}{1-c_1} - \frac{c_1}{1-c_1} = 1$ | $dY = 1000$ |
+
+**Haavelmo-Theorem:** Steuerfinanzierter Multiplikator $= 1$ → $dY = dG$
+- Klammer-Sicht: $dY = c_1\,\underbrace{(dY - dT)}_{dY_V = 0} + dG$ → kein Zusatzkonsum
+- Anstoß-Sicht: $dG - c_1\,dT = 1000 - 800 = 200$, mal 5 → $1000$
+
+Wegen $0 < c_1 < 1$: kreditfinanziert wirkt **stärker** als steuerfinanziert.
+
+### Einkommensabhängige Steuern ($T = tY$)
+
+$$
+\boxed{\,Y = \frac{1}{1 - c_1(1 - t)} \cdot [c_0 + \bar I + G]\,}
+$$
+
+| | $T$ fest | $T = tY$ |
+| --- | --- | --- |
+| Multiplikator | $\frac{1}{1 - c_1}$ | $\frac{1}{1 - c_1(1 - t)}$ (kleiner) |
+| Beispiel $c_1 = 0{,}8$, $t = 0{,}25$ | 5 | 2,5 |
+
+→ **Automatischer Stabilisator:** Schwankungen der autonomen Nachfrage wirken schwächer auf $Y$ (aber auch $dG$ wirkt schwächer).

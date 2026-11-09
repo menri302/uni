@@ -1,9 +1,5 @@
 
-> [!NOTE] Definitionen
-> ${}C{}$: Konsumausgaben der privaten Haushalte
-> ${}G{}$: Konsumausgaben des Staates
-> ${}I{}$: Bruttoinvestitionen
-> ${}X-IM{}$: Exporte minus Importe
+![[00 Formelsammlung#Symbole Gütermarkt]]
 
 **Wir betrachten im Folgenden eine Volkswirtschaft ohne außenwirtschaftliche Beziehungen** (geschlossene Volkswirtschaft)
 --> ${}X=IM=0{}$, ${}\text{BIP=BNE}{}$
