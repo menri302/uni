@@ -230,3 +230,72 @@ $$
 
 
 
+		
+
+### Investition = Ersparnis
+
+> [!NOTE] Alternative Darstellung des Gleichgewichts
+> **Private Ersparnis**: ${}S\equiv Y_{V}-C=Y-T-C{}$
+> **Ersparnis des Staates**: ${}T-G{}$
+> - ${}T>G{}$: **Budgetüberschuss** --> staatliche Ersparnis positiv
+> - ${}T<G{}$: **Budgetdefizit** --> staatliche Ersparnis negativ
+
+**Herleitung** aus ${}Y=Z{}$:
+$$
+\begin{aligned}
+Y&=C+\bar{I}+G\\
+\Leftrightarrow \underbrace{Y-T-C}_{S}&=\bar{I}+G-T\\
+\Leftrightarrow S&=\bar{I}+G-T\\
+\Leftrightarrow \bar{I}&=\underbrace{S}_{\text{privat}}+\underbrace{(T-G)}_{\text{staatlich}}
+\end{aligned}
+$$
+
+> [!BUG] Merke
+> Der Gütermarkt ist nur dann im Gleichgewicht, wenn die **Investitionen** genau der **gesamten Ersparnis** (privat + staatlich) entsprechen
+> --> ${}\bar{I}=S+(T-G){}$ ist **dasselbe Gleichgewicht** wie ${}Y=Z{}$, nur anders aufgeschrieben
+
+
+**Sparfunktion**: Konsumfunktion in ${}S\equiv Y_{V}-C{}$ einsetzen
+$$
+S=Y-T-c_{0}-c_{1}(Y-T)=-c_{0}+\underbrace{(1-c_{1})}_{\text{marg. Sparneigung}}(Y-T)
+$$
+- ${}0<(1-c_{1})<1{}$ = **marginale Sparneigung**: Anteil jedes zusätzlichen €, der gespart wird (${}c_{1}+(1-c_{1})=1{}$)
+
+**Einsetzen** in ${}\bar{I}=S+(T-G){}$ und nach ${}Y{}$ auflösen:
+$$
+\begin{aligned}
+\bar{I}&=-c_{0}+(1-c_{1})(Y-T)+(T-G)\\
+\Leftrightarrow c_{0}+\bar{I}+G-T+(1-c_{1})T&=(1-c_{1})Y\\
+\Leftrightarrow c_{0}+\bar{I}+G-c_{1}T&=(1-c_{1})Y\\
+\Leftrightarrow Y&=\frac{1}{1-c_{1}}*[c_{0}+\bar{I}+G-c_{1}T]
+\end{aligned}
+$$
+
+> [!BUG] Merke
+> „Produktion = Nachfrage“ und „Investition = Ersparnis“ führen zur **identischen Gleichgewichtslösung** --> zwei Blickwinkel auf dasselbe Gleichgewicht
+> Multiplikator ${}=\frac{1}{1-c_{1}}=\frac{1}{\text{marg. Sparneigung}}{}$ --> je mehr gespart wird, desto kleiner (Ersparnis = Sickerverlust)
+
+### Private Sparneigung erhöht sich (${}dc_{0}<0{}$)
+
+> [!NOTE] Annahmen
+> ${}dc_{0}<0{}$: Haushalte konsumieren bei jedem Einkommen weniger --> wollen **mehr sparen** (Szenario)
+> ${}d\bar{I}=dG=dT=0{}$: alles andere bleibt gleich (ceteris paribus) --> nur Effekt von ${}c_{0}{}$
+
+**Wirkung auf ${}Y{}$** (totales Differential, andere Terme fallen weg):
+$$
+dY=\underbrace{\frac{\partial Y}{\partial c_{0}}}_{\text{Wirkung pro Einheit}}*\underbrace{dc_{0}}_{\text{Änderung}}=\frac{1}{1-c_{1}}*dc_{0}<0
+$$
+
+**Wirkung auf ${}S{}$** (differenzierte Sparfunktion ${}S=-c_{0}+(1-c_{1})(Y-T){}$ mit ${}dT=0{}$):
+$$
+dS=-dc_{0}+(1-c_{1})\,dY=-dc_{0}+\frac{1-c_{1}}{1-c_{1}}\,dc_{0}=-dc_{0}+dc_{0}=0
+$$
+- ${}-dc_{0}>0{}$: direkter Effekt, Haushalte sparen mehr
+- ${}(1-c_{1})dY<0{}$: weniger Konsum --> weniger Nachfrage --> ${}Y\downarrow{}$ --> weniger Einkommen zum Sparen
+- --> beide Effekte heben sich **genau auf**
+
+> [!BUG] Spar-Paradoxon
+> Wollen alle Haushalte mehr sparen, **sinkt das Einkommen**, die Ersparnis bleibt aber **unverändert** (${}dS=0{}$)
+> --> folgt auch aus ${}\bar{I}=S+(T-G){}$: ${}\bar{I}{}$, ${}T{}$, ${}G{}$ fest --> ${}S{}$ kann sich nicht ändern
+
+![[Pasted image 20261109165313.png|937]]

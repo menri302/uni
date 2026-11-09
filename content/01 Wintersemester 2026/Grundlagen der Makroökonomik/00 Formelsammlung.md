@@ -125,6 +125,7 @@ $$
 | $S$ | Ersparnis |
 | $c_0$ | autonomer Konsum ($c_0 > 0$) |
 | $c_1$ | marginale Konsumneigung ($0 < c_1 < 1$) |
+| $1 - c_1$ | marginale Sparneigung ($0 < 1 - c_1 < 1$) |
 | $\frac{1}{1 - c_1}$ | Multiplikator |
 | $Y_N$ | natürliches Produktionsniveau |
 | $dX$ | Änderung von $X$ |
@@ -135,10 +136,14 @@ $$
 
 | Typ | Gleichung | Bedeutung |
 | --- | --- | --- |
-| Identität | $Z \equiv C + I + G$ | Güternachfrage |
-| Identität | $Y_V \equiv Y - T$ | verfügbares Einkommen |
-| Verhaltensgleichung | $C = c_0 + c_1 Y_V$ | Konsumfunktion |
-| Gleichgewicht | $Y = Z$ | Produktion = Nachfrage |
+| Identität (gilt immer) | $Z \equiv C + I + G$ | Güternachfrage |
+| Identität (gilt immer) | $Y_V \equiv Y - T$ | verfügbares Einkommen |
+| Identität (gilt immer) | $S \equiv Y_V - C$ | private Ersparnis |
+| Verhaltensgleichung (Annahme) | $C = c_0 + c_1 Y_V$ | Konsumfunktion |
+| Gleichgewicht (Annahme) | $Y = Z$ | Produktion = Nachfrage (kurze Frist) |
+
+→ Sparfunktion $S = -c_0 + (1-c_1)(Y-T)$ folgt aus Identität + Konsumfunktion (ohne $Y = Z$)
+→ $\bar I = S + (T-G)$ und die Höhe von $Y$, $S$ folgen erst aus $Y = Z$
 
 ### Gleichgewicht
 
@@ -192,3 +197,23 @@ $$
 | Beispiel $c_1 = 0{,}8$, $t = 0{,}25$ | 5 | 2,5 |
 
 → **Automatischer Stabilisator:** Schwankungen der autonomen Nachfrage wirken schwächer auf $Y$ (aber auch $dG$ wirkt schwächer).
+
+### Investition = Ersparnis
+
+| Größe | Formel |
+| --- | --- |
+| private Ersparnis | $S \equiv Y_V - C = Y - T - C$ |
+| Sparfunktion | $S = -c_0 + (1 - c_1)(Y - T)$ |
+| staatliche Ersparnis | $T - G$ ($> 0$ Überschuss, $< 0$ Defizit) |
+| Gleichgewicht | $\bar I = S + (T - G)$ |
+
+→ liefert dieselbe Lösung wie $Y = Z$; Multiplikator $= \frac{1}{\text{marg. Sparneigung}}$
+
+**Sparparadoxon** ($dc_0 < 0$, $d\bar I = dG = dT = 0$):
+
+| Weg | Rechnung | Ergebnis |
+| --- | --- | --- |
+| A (wie) | $dY = \frac{1}{1-c_1}dc_0$, dann $dS = -dc_0 + (1-c_1)dY$ | $dY < 0$, $dS = 0$ |
+| B (dass) | $\bar I = S + (T-G)$ mit $\bar I, T, G$ fest | $dS = 0$ |
+
+→ alle wollen mehr sparen, $S$ bleibt gleich, $Y$ sinkt
