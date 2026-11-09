@@ -42,6 +42,8 @@ CONTENT_CACHE = QUARTZ / ".quartz-cache" / "content-cache"
 
 EMBED = re.compile(r"!\[\[([^\]]+?)\]\]")
 LINK = re.compile(r"(?<!!)\[\[([^\]|#\\]+)(#[^\]|\\]*)?((?:\\?\|)[^\]]*)?\]\]")
+NOTE_EMBED = re.compile(r"!\[\[([^\]|#\\]+)(#[^\]|\\]*)?((?:\\?\|)[^\]]*)?\]\]")
+MEDIA_SUFFIX = re.compile(r"\.(png|jpe?g|gif|svg|webp|bmp|pdf|mp3|mp4|webm|mov|wav)$", re.I)
 
 
 def clean_content():
@@ -129,15 +131,25 @@ def rewrite_links(notes):
             # Pfad im Link (z. B. "01 Universität/<Semester>/<Fach>/Zusammenfassung/<Notiz>")
             # entscheidet; sonst bei gleichen Namen die Notiz aus demselben Fach bevorzugen
             wanted = "/".join(p for p in Path(nfc(target.strip())).parts if p not in (UNI.name, SUBFOLDER))
-            best = next(
-                (c for c in candidates if c.relative_to(CONTENT).with_suffix("").as_posix().endswith(wanted)),
-                next((c for c in candidates if c.parent == note.parent), candidates[0]),
-            )
+            matching = [c for c in candidates if c.relative_to(CONTENT).with_suffix("").as_posix().endswith(wanted)] or candidates
+            best = next((c for c in matching if c.parent == note.parent), matching[0])
             path = best.relative_to(CONTENT).with_suffix("").as_posix()
             return f"[[{path}{heading}{alias}]]"
 
+        def replace_embed(match):
+            # Notiz-Embeds (![[Notiz#Überschrift]]) ebenfalls auf vollen Pfad umschreiben,
+            # sonst ist der Embed bei gleichnamigen Notizen (z. B. "00 Formelsammlung") mehrdeutig.
+            # Bilder/Anhänge und nicht veröffentlichte Notizen bleiben unverändert.
+            target = match.group(1)
+            if MEDIA_SUFFIX.search(target.strip()):
+                return match.group(0)
+            if not by_stem.get(nfc(Path(target.strip()).stem)):
+                return match.group(0)
+            return "!" + replace(match)
+
         text = note.read_text(encoding="utf-8")
         new = LINK.sub(replace, text)
+        new = NOTE_EMBED.sub(replace_embed, new)
         if new != text:
             stat = note.stat()
             note.write_text(new, encoding="utf-8")

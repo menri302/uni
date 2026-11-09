@@ -1,5 +1,5 @@
 
-![[00 Formelsammlung#Symbole Gütermarkt]]
+![[01 Wintersemester 2026/Grundlagen der Makroökonomik/00 Formelsammlung#Symbole Gütermarkt]]
 
 **Wir betrachten im Folgenden eine Volkswirtschaft ohne außenwirtschaftliche Beziehungen** (geschlossene Volkswirtschaft)
 --> ${}X=IM=0{}$, ${}\text{BIP=BNE}{}$
