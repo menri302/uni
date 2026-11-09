@@ -1,28 +1,41 @@
 # 4.1 Interest Rate Quotes: EAR vs. APR
 
-## EAR and APR
+## Effective annual rate (EAR) - Effektiver Jahreszins
 
-| | **EAR** – Effective annual rate (Effektiver Jahreszins) | **APR** – Annual percentage rate (Nominaler Jahreszins) |
-|---|---|---|
-| Meaning | **actual** interest earned at the end of one year | interest **without** the effect of compounding (simple interest) |
-| Rate for one period | ${}r_{\tau}=(1+EAR)^{\tau}-1{}$ | ${}r=\frac{APR}{k}=APR\cdot\tau{}$ |
+**EAR** = **actual** interest that will be earned at the end of one year
 
-(τ = period length in years, ${}r_{\tau}{}$ = equivalent rate for one period of length τ, k = compounding periods per year, ${}\tau=\frac{1}{k}{}$)
+$$r_{\tau}=(1+EAR)^{\tau}-1$$
 
-$$1+EAR=\left(1+\frac{APR}{k}\right)^{k}$$
+(${}\tau{}$ = period length in years, ${}r_{\tau}{}$ = equivalent interest rate for one period of length ${}\tau{}$)
 
-- The stated APR is usually **lower** than the actual interest earned **if** there are several compounding periods per year
-- Reason: APR does not include **compound interest** (interest earned on prior interest payments)
+**Example: monthly interest with EAR = 6 %** – bank account, savings of \$1,000. Interest in the first month? Money after one year?
+1. Equivalent monthly rate (τ = 1/12): ${}r_{monthly}=(1+0.06)^{\frac{1}{12}}-1=0.4868\%{}$
+2. Interest in the first month: ${}\char36{}1{,}000\cdot0.4868\%=\char36{}4.87{}$
+3. After one year (no withdrawals): ${}\char36{}1{,}000\cdot\left((1+0.06)^{\frac{1}{12}}\right)^{12}=\char36{}1{,}000\cdot1.06=\char36{}1{,}060{}$
 
 ---
 
-## Example: bank account with monthly interest, savings of \$1,000
+## Annual Percentage Rate (APR) - Nominaler Jahreszins
 
-| | **EAR = 6 %** | **APR = 6 %** |
-|---|---|---|
-| Monthly rate | ${}(1+0.06)^{\frac{1}{12}}-1=0.4868\%{}$ | ${}\frac{6\%}{12}=0.5\%{}$ |
-| Interest in the first month | ${}\char36{}1{,}000\cdot0.4868\%=\char36{}4.87{}$ | ${}\char36{}1{,}000\cdot0.5\%=\char36{}5{}$ |
-| After one year (no withdrawals) | ${}\char36{}1{,}000\cdot\left((1+0.06)^{\frac{1}{12}}\right)^{12}=\char36{}1{,}000\cdot1.06=\char36{}1{,}060{}$ | ${}\char36{}1{,}000\cdot\left(1+\frac{0.06}{12}\right)^{12}=\char36{}1{,}061.6778{}$ |
+**APR** = amount of interest earned **without** the effect of compounding (simple interest)
+
+$$r=\frac{APR}{k\text{ periods}}=APR\cdot\tau\qquad\left(\tau=\frac{1}{k}\right)$$
+
+**Example: monthly interest with APR = 6 %** – bank account, savings of \$1,000. Interest in the first month? Money after one year?
+1. Equivalent monthly rate: ${}r_{monthly}=\frac{6\%}{12}=0.5\%{}$
+2. Interest in the first month: ${}\char36{}1{,}000\cdot0.5\%=\char36{}5{}$
+3. After one year (no withdrawals): ${}\char36{}1{,}000\cdot\left(1+\frac{0.06}{12}\right)^{12}=\char36{}1{,}061.6778{}$
+
+For comparison: with an EAR of 6 %, the monthly rate was 0.4868 % and the balance after one year \$1,060
+
+---
+
+## APR vs. EAR
+
+$$1+EAR=\left(1+\frac{APR}{k}\right)^{k}$$
+
+- The stated APR is usually **lower** than the actual interest earned **if** there are several compounding periods in a year
+- Reason: APR does not include the effect of **compound interest** (interest earned on prior interest payments)
 
 ---
 
@@ -115,9 +128,8 @@ $$r_{IRR}=\left(1+\frac{30}{970}\right)^{\frac{365}{50}}-1=1.0309^{7.3}-1=24.9\%
 
 ---
 
-# 4.3 The Determinants of Interest Rates
-
 ![[Pasted image 20261031133051.png|812]]
+# 4.3 The Determinants of Interest Rates
 
 **Factors influencing interest rates:** inflation, expectations of future growth, government policy, monetary policy, individual preferences
 

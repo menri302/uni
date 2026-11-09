@@ -46,7 +46,7 @@ $$P=\frac{Face\ Value}{(1+r)^{N}}$$
 ---
 
 **Example – price of the coupon bond** at a market rate of 10 % (EAR):
-semi-annual rate ${}r=1.10^{0.5}-1=4.88\%{}$ ([[01 Wintersemester 2026/Finance und Investment/04 Interest Rates#EAR and APR|EAR → period rate]]), N = 10
+semi-annual rate ${}r=1.10^{0.5}-1=4.88\%{}$ ([[01 Wintersemester 2026/Finance und Investment/04 Interest Rates#Effective annual rate (EAR) - Effektiver Jahreszins|EAR → period rate]]), N = 10
 
 $$P=\char36{}25\cdot\frac{1}{0.0488}\left(1-\frac{1}{1.0488^{10}}\right)+\frac{\char36{}1{,}000}{1.0488^{10}}=\char36{}815.09$$
 
