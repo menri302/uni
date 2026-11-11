@@ -85,7 +85,7 @@ hier: da sich Gleichgewicht auf PGK bezieht zeigt unter Einbezug des Grenzschade
 ### Mengenregulierung
 Bei einer Mengenregulierung führt die Regierung Quoten ein, die die Menge festlegen die ein Unternehmen verkaufen darf
 Wird die Menge auf Q\*\* festgelegt, verläuft die Angebotskurve (= PGK) bis Q\*\* normal und wird bei **Q\*\* senkrecht** → effizientes Gleichgewicht
-<img src="/uni/anhaenge/mengenregulierung.svg" alt="Mengenregulierung" style="max-width:100%;height:auto">
+<img src="/anhaenge/mengenregulierung.svg" alt="Mengenregulierung" style="max-width:100%;height:auto">
 
 > [!NOTE] Wohlfahrt bei Quote **mit** Externalität
 > Ohne Externalität ist eine Quote ineffizient (C + D = Wohlfahrtsverlust). **Mit** negativer Externalität dreht sich das um:

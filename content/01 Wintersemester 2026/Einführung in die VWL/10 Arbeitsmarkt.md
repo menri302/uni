@@ -33,7 +33,7 @@ $$\text{Wert des GPA}\geq w$$
 > Die Arbeitsnachfrage einer Firma ist die Menge an Arbeit, für die gilt:
 > $$\text{Wert des GPA}=\text{Marktlohn}$$
 
-<img src="/uni/anhaenge/arbeitsnachfrage.svg" alt="Arbeitsnachfrage" style="max-width:100%;height:auto">
+<img src="/anhaenge/arbeitsnachfrage.svg" alt="Arbeitsnachfrage" style="max-width:100%;height:auto">
 - Bsp.: Marktlohn₁ ${}=50{}$ --> Firma stellt **100** Arbeiter ein (Wert des GPA des 100. Arbeiters = 50)
 - **Marktlohn ändert sich** --> Firma passt Anzahl der Arbeitskräfte an, bis wieder Wert des GPA = Marktlohn (Bewegung **entlang** der Kurve)
 	- Marktlohn **sinkt** (₁ → ₂) --> **mehr** Arbeiter (Menge₁ → Menge₂)
@@ -51,7 +51,7 @@ $$\text{Wert des GPA}\geq w$$
 | 3. **Technologie**: neue Technologie **ersetzt** Arbeitskräfte (Substitut) | ↓ | **links** |
 | 4. **Input-Preise** ↓ (z.B. Maschinen billiger --> Firmen kaufen mehr davon) | ↑ (i.d.R. höheres GPA) | **rechts** |
 
-<img src="/uni/anhaenge/verschiebung-arbeitsnachfrage.svg" alt="Verschiebung Arbeitsnachfrage" style="max-width:100%;height:auto">
+<img src="/anhaenge/verschiebung-arbeitsnachfrage.svg" alt="Verschiebung Arbeitsnachfrage" style="max-width:100%;height:auto">
 
 ## Die aggregierte Arbeitsnachfragekurve
 > [!NOTE] Aggregierte Arbeitsnachfrage
@@ -59,7 +59,7 @@ $$\text{Wert des GPA}\geq w$$
 
 - Bsp.: 2 Firmen, Marktlohn ${}25\,€{}$: Firma 1 stellt 10 ein, Firma 2 stellt 20 ein --> aggregierte Arbeitsnachfrage ${}10+20=30{}$
 
-<img src="/uni/anhaenge/aggregierte-arbeitsnachfrage.svg" alt="Aggregierte Arbeitsnachfrage" style="max-width:100%;height:auto">
+<img src="/anhaenge/aggregierte-arbeitsnachfrage.svg" alt="Aggregierte Arbeitsnachfrage" style="max-width:100%;height:auto">
 
 **Anmerkung**: Modell ist **vereinfacht** --> Volkswirtschaft wird behandelt, als gäbe es nur **eine einzige** Arbeitsnachfragekurve
 - Realistischer: verschiedene **Arbeitsmarktsegmente** für Arbeitskräfte mit unterschiedlichen Fähigkeiten und Qualifikationsniveaus
@@ -82,7 +82,7 @@ $$\text{Wert des GPA}\geq w$$
 > [!NOTE] Ergebnis
 > Die **Arbeitsangebotskurve** (Zusammenhang zwischen Arbeitsangebot und Lohnsatz) hat eine **positive Steigung**
 
-<img src="/uni/anhaenge/arbeitsangebot.svg" alt="Arbeitsangebot" style="max-width:100%;height:auto">
+<img src="/anhaenge/arbeitsangebot.svg" alt="Arbeitsangebot" style="max-width:100%;height:auto">
 Lohn steigt (${}w_0\to w_1{}$) --> **mehr Menschen** geben Freizeit für Arbeit auf und Beschäftigte arbeiten mehr --> Bewegung **entlang** der Kurve (${}A\to B{}$, ${}L_0\to L_1{}$)
 
 **Anmerkung**: Summe der individuellen Arbeitsangebotskurven = **aggregierte Arbeitsangebotskurve** (horizontale Summe, wie bei der Nachfrage)
@@ -98,7 +98,7 @@ Lohn steigt (${}w_0\to w_1{}$) --> **mehr Menschen** geben Freizeit für Arbeit 
 | 3. **Bevölkerung** | **Einwanderung** | **rechts** |
 | | **Alternde Bevölkerung** | **links** (über die Zeit) |
 
-<img src="/uni/anhaenge/verschiebung-arbeitsangebot.svg" alt="Verschiebung Arbeitsangebot" style="max-width:100%;height:auto">
+<img src="/anhaenge/verschiebung-arbeitsangebot.svg" alt="Verschiebung Arbeitsangebot" style="max-width:100%;height:auto">
 
 # Gleichgewicht auf einem Arbeitsmarkt unter Wettbewerb
 > [!NOTE] Kompetitives Arbeitsmarktgleichgewicht ${}(w^*,L^*){}$
@@ -109,7 +109,7 @@ Lohn steigt (${}w_0\to w_1{}$) --> **mehr Menschen** geben Freizeit für Arbeit 
 - Lohn **über** ${}w^*{}$: angebotene Arbeit > nachgefragte Arbeit (**Angebotsüberhang**) --> **Abwärtsdruck** auf den Lohn
 - Lohn **unter** ${}w^*{}$: angebotene Arbeit < nachgefragte Arbeit (**Nachfrageüberhang**) --> **Aufwärtsdruck** auf den Lohn
 
-<img src="/uni/anhaenge/arbeitsmarktgleichgewicht.svg" alt="Arbeitsmarktgleichgewicht" style="max-width:100%;height:auto">
+<img src="/anhaenge/arbeitsmarktgleichgewicht.svg" alt="Arbeitsmarktgleichgewicht" style="max-width:100%;height:auto">
 
 > [!NOTE] Arbeitslosigkeit
 > Eine Person ist **arbeitslos**, wenn sie **zum geltenden Lohn arbeiten möchte**, aber **keine Arbeitsstelle findet**
@@ -143,7 +143,7 @@ Lohn steigt (${}w_0\to w_1{}$) --> **mehr Menschen** geben Freizeit für Arbeit 
 > [!NOTE] Mindestlohn
 > **Preisuntergrenze** für den (Stunden-)Lohn --> liegt er **über** ${}w^*{}$: Arbeitsnachfrage < Arbeitsangebot --> **Arbeitslosigkeit**
 
-<img src="/uni/anhaenge/mindestlohn.svg" alt="Mindestlohn" style="max-width:100%;height:auto">
+<img src="/anhaenge/mindestlohn.svg" alt="Mindestlohn" style="max-width:100%;height:auto">
 
 - Empirie (Cengiz et al., 2019): Beschäftigungseffekt **negativ, aber sehr moderat**
 - Mögliche Erklärung: Job lohnt sich mehr --> **intensivere Jobsuche** --> **friktionelle** Arbeitslosigkeit ↓ (gleicht strukturelle teilweise aus)
@@ -168,7 +168,7 @@ Lohn steigt (${}w_0\to w_1{}$) --> **mehr Menschen** geben Freizeit für Arbeit 
 - Lohnkürzungen stoßen auf **starken Widerstand** --> senken **Arbeitsmoral und Produktivität** (Fehr et al., 2009)
 --> Löhne sind **nach unten starr**: Sinkt z.B. die Arbeitsnachfrage, sinken die Löhne nicht --> **Arbeitslosigkeit**
 
-<img src="/uni/anhaenge/starre-loehne.svg" alt="Starre Loehne" style="max-width:100%;height:auto">
+<img src="/anhaenge/starre-loehne.svg" alt="Starre Loehne" style="max-width:100%;height:auto">
 - Ausgangsgleichgewicht ${}A=(w_0,L_0){}$, Arbeitsnachfrage sinkt (AN nach links)
 - **Flexible Löhne**: neues Gleichgewicht ${}B=(w_F,L_F){}$
 - **Starre Löhne**: Lohn bleibt bei ${}w_0{}$ --> Beschäftigung sinkt **stärker** bis ${}L_2{}$ --> Arbeitslosigkeit ${}L_0-L_2{}$

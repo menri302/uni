@@ -52,7 +52,7 @@ Kurve: Zahlungsbereitschaft für die **x-te Einheit**, also der Höchstpreis fü
 
 > [!NOTE] Marktnachfrage
 > Summe der individuellen Nachfragekurven: **Mengen bei gleichem Preis addieren** (horizontale Aggregation)
-> <img src="/uni/anhaenge/marktnachfrage.svg" alt="Marktnachfrage" style="max-width:100%;height:auto">
+> <img src="/anhaenge/marktnachfrage.svg" alt="Marktnachfrage" style="max-width:100%;height:auto">
 
 ### Verschiebung der Nachfragekurve
 1. **Präferenzen**

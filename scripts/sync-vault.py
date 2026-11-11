@@ -203,7 +203,7 @@ def fix_svg_embeds(notes):
     Deshalb SVG-Embeds als <img> mit absolutem Pfad schreiben."""
     def repl(m):
         width = f' width="{m.group(2)}"' if m.group(2) else ""
-        return (f'<img src="/uni/anhaenge/{svg_slug(m.group(1))}" alt="{nfc(m.group(1))[:-4]}"'
+        return (f'<img src="/anhaenge/{svg_slug(m.group(1))}" alt="{nfc(m.group(1))[:-4]}"'
                 f'{width} style="max-width:100%;height:auto">')
     for note in notes:
         text = note.read_text(encoding="utf-8")
