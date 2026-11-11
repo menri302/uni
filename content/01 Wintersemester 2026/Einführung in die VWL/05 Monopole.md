@@ -65,7 +65,7 @@ $$\pi' = p + p'(q) \cdot q - C'(q) \overset{!}{=} 0$$
 > --> sozial optimaler Preis **niedriger**, Menge **höher** als im Monopol
 > --> **Lösung des Planers = Gleichgewicht bei vollkommenem Wettbewerb**
 
-<img src="/anhaenge/monopol-wohlfahrt.svg" alt="Monopol Wohlfahrt" style="max-width:100%;height:auto">
+![Monopol Wohlfahrt](/anhaenge/monopol-wohlfahrt.svg)
 
 | | **Vollk. Wettbewerb** | **Monopol** |
 |---|---|---|

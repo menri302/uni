@@ -28,7 +28,7 @@ Betrachtet wird **1 Produkt** bei mehreren Faktoren
 
 |                    | **Typ 1: Limitationalität**                                                                                                                   | **Typ 2: „perfekte“ Substitutionalität**                                            | **Typ 3: „allgemeine“ Produktionsfunktion** (z.B. Cobb-Douglas)                                                                       |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Bild**           | <img src="/anhaenge/bwl-isoquanten-typ-1.svg" alt="BWL Isoquanten Typ 1" width="210" style="max-width:100%;height:auto">                                                                                                            | <img src="/anhaenge/bwl-isoquanten-typ-2.svg" alt="BWL Isoquanten Typ 2" width="210" style="max-width:100%;height:auto">                                                  | <img src="/anhaenge/bwl-isoquanten-typ-3.svg" alt="BWL Isoquanten Typ 3" width="210" style="max-width:100%;height:auto">                                                                                                    |
+| **Bild**           | ![BWL Isoquanten Typ 1](/anhaenge/bwl-isoquanten-typ-1.svg)                                                                                                            | ![BWL Isoquanten Typ 2](/anhaenge/bwl-isoquanten-typ-2.svg)                                                  | ![BWL Isoquanten Typ 3](/anhaenge/bwl-isoquanten-typ-3.svg)                                                                                                    |
 | **Faktoren**       | **festes Verhältnis** (z.B. 1 Maschine = 1 h Arbeit + 1 Satz Einzelteile)                                                                     | **vollständig austauschbar** zu **konstanter Rate** (z.B. 1 h Jäten = 1 l Herbizid) | **teilweise** austauschbar, mit **abnehmender Ersatzwirkung**                                                                         |
 | **Form**           | **L-förmig**: mehr von nur einem Faktor bringt **keinen** zusätzlichen Output --> der **knappste Faktor limitiert**                           | **Geraden**: Ersatzbedarf ist immer gleich, egal wie viel man schon hat             | **konvex** (zum Ursprung gewölbt): je extremer die Mischung, desto mehr vom reichlichen Faktor braucht man als Ersatz für den knappen |
 | **Besonderheiten** | technisch effizient ist **nur der Eckpunkt** (Äste = Verschwendung)<br>Eckpunkte auf **Strahl aus dem Ursprung** (= festes Einsatzverhältnis) | **ein Faktor allein** möglich (Geraden schneiden die Achsen)                        | Achsen werden **nie berührt** --> beide Faktoren nötig<br>unendlich viele effiziente Mischungen auf einer Isoquante                   |
@@ -68,7 +68,7 @@ $q_i$ = Preis von Faktor $i$
 
 ## Grafisch
 
-<img src="/anhaenge/bwl-minimalkostenkombination.svg" alt="BWL Minimalkostenkombination" width="580" style="max-width:100%;height:auto">
+![BWL Minimalkostenkombination](/anhaenge/bwl-minimalkostenkombination.svg)
 
 | Linie                       | Formel                                              | fest              | bestimmt durch          |
 | --------------------------- | --------------------------------------------------- | ----------------- | ----------------------- |
@@ -93,11 +93,11 @@ $q_i$ = Preis von Faktor $i$
 
 ## Drehung der Kostengeraden
 
-<img src="/anhaenge/bwl-lohnsenkung-drehung.svg" alt="BWL Lohnsenkung Drehung" width="650" style="max-width:100%;height:auto">
+![BWL Lohnsenkung Drehung](/anhaenge/bwl-lohnsenkung-drehung.svg)
 
 ## Änderung der Faktornachfrage
 
-<img src="/anhaenge/bwl-lohnsenkung-faktornachfrage.svg" alt="BWL Lohnsenkung Faktornachfrage" width="640" style="max-width:100%;height:auto">
+![BWL Lohnsenkung Faktornachfrage](/anhaenge/bwl-lohnsenkung-faktornachfrage.svg)
 
 Lohn $q_1$ sinkt --> zwei Vergleichssituationen:
 
@@ -126,7 +126,7 @@ Lohn $q_1$ sinkt --> zwei Vergleichssituationen:
 
 Gegenstück: **Lohn steigt** (z.B. Mindestlohn) --> Kostengerade **steiler** --> MKK wandert auf $x_0$ **nach links oben** --> Arbeit wird durch **Kapital** (Maschinen) ersetzt
 
-<img src="/anhaenge/bwl-rationalisierung.svg" alt="BWL Rationalisierung" width="600" style="max-width:100%;height:auto">
+![BWL Rationalisierung](/anhaenge/bwl-rationalisierung.svg)
 
 | Aspekt                      | Bewertung                                                                                                     |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -149,7 +149,7 @@ Gegenstück: **Lohn steigt** (z.B. Mindestlohn) --> Kostengerade **steiler** -->
 
 $\overline{K}_F$: Strich = **Konstante** --> hängt nicht von $x$ ab
 
-<img src="/anhaenge/bwl-fixe-und-variable-kosten.svg" alt="BWL Fixe und variable Kosten" width="680" style="max-width:100%;height:auto">
+![BWL Fixe und variable Kosten](/anhaenge/bwl-fixe-und-variable-kosten.svg)
 
 ---
 
@@ -162,7 +162,7 @@ $\overline{K}_F$: Strich = **Konstante** --> hängt nicht von $x$ ab
 | **relevant für** | Beurteilung der **Wirtschaftlichkeit insgesamt** | Entscheidungen über **Mengenvariation**      |
 | **grafisch**   | Steigung des **Fahrstrahls** vom Ursprung zu $(x \mid K(x))$ | Steigung der **Tangente** in $x$   |
 
-<img src="/anhaenge/bwl-grenz--und-durchschnittskosten.svg" alt="BWL Grenz- und Durchschnittskosten" width="760" style="max-width:100%;height:auto">
+![BWL Grenz- und Durchschnittskosten](/anhaenge/bwl-grenz--und-durchschnittskosten.svg)
 
 - Fahrstrahl startet im **Ursprung**, nicht auf der Kurve --> 2. Schnittpunkt mit $K(x)$ ist **Zufall**
 - Sekante zwischen zwei Kurvenpunkten = Differenzenquotient --> für $t \to 0$ **Grenzkosten** 

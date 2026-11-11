@@ -202,9 +202,9 @@ def fix_svg_embeds(notes):
     """Quartz bettet SVGs als <object> mit falschem relativen Pfad ein (Bild fehlt).
     Deshalb SVG-Embeds als <img> mit absolutem Pfad schreiben."""
     def repl(m):
-        width = f' width="{m.group(2)}"' if m.group(2) else ""
-        return (f'<img src="/anhaenge/{svg_slug(m.group(1))}" alt="{nfc(m.group(1))[:-4]}"'
-                f'{width} style="max-width:100%;height:auto">')
+        # Markdown-Bild statt HTML-<img>: ein HTML-Tag am Zeilenanfang würde die
+        # folgenden Zeilen bis zur Leerzeile als rohes HTML (unformatiert) ausgeben.
+        return f"![{nfc(m.group(1))[:-4]}](/anhaenge/{svg_slug(m.group(1))})"
     for note in notes:
         text = note.read_text(encoding="utf-8")
         new = SVG_EMBED.sub(repl, text)
