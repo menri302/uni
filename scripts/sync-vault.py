@@ -190,6 +190,28 @@ def find_sources():
     return sources
 
 
+SVG_EMBED = re.compile(r"!\[\[([^\]|#]+?\.svg)(?:\\?\|(\d+))?\]\]", re.I)
+
+
+def svg_slug(name):
+    """So benennt Quartz Anhänge in der URL: klein, Leerzeichen -> Bindestrich."""
+    return nfc(name).strip().lower().replace(" ", "-")
+
+
+def fix_svg_embeds(notes):
+    """Quartz bettet SVGs als <object> mit falschem relativen Pfad ein (Bild fehlt).
+    Deshalb SVG-Embeds als <img> mit absolutem Pfad schreiben."""
+    def repl(m):
+        width = f' width="{m.group(2)}"' if m.group(2) else ""
+        return (f'<img src="/uni/anhaenge/{svg_slug(m.group(1))}" alt="{nfc(m.group(1))[:-4]}"'
+                f'{width} style="max-width:100%;height:auto">')
+    for note in notes:
+        text = note.read_text(encoding="utf-8")
+        new = SVG_EMBED.sub(repl, text)
+        if new != text:
+            note.write_text(new, encoding="utf-8")
+
+
 def main():
     sources = find_sources()
     clean_content()
@@ -231,6 +253,7 @@ def main():
         attachment_dir.mkdir(exist_ok=True)
         shutil.copy2(path, attachment_dir / path.name)
 
+    fix_svg_embeds(notes)
     print(f"{len(courses)} Fächer, {len(notes)} Notizen und {len(embeds) - len(missing)} Anhänge kopiert.")
     for name in missing:
         print(f"  Anhang nicht gefunden: {name}")

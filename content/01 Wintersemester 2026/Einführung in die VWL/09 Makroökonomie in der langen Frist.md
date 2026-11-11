@@ -47,7 +47,7 @@ Für den Vergleich der Entwicklung des Lebensstandards **im Zeitverlauf**: **rea
 > $$y_{t+n}=(1+g)^n\cdot y_t$$
 > --> **Hauptursache** für die großen Unterschiede im Niveau des BIP pro Kopf auf der Welt
 
-![[Exponentielles Wachstum UK USA.svg|854]]
+<img src="/uni/anhaenge/exponentielles-wachstum-uk-usa.svg" alt="Exponentielles Wachstum UK USA" width="854" style="max-width:100%;height:auto">
 
 # Die gesamtwirtschaftliche Produktionsfunktion
 **Einkommen = Produktion** --> Einkommensunterschiede hängen mit Unterschieden in der **Produktivität** zusammen (Wert der Waren und Dienstleistungen, die ein Arbeitnehmer in einer Periode erzeugt)
@@ -128,7 +128,7 @@ Für den Vergleich der Entwicklung des Lebensstandards **im Zeitverlauf**: **rea
 > [!NOTE] Gängige funktionale Form (Cobb-Douglas)
 > $$Y=A\cdot F(H,K)=A\cdot H^{\frac{2}{3}}\cdot K^{\frac{1}{3}}$$
 
-![[Produktionsfunktion K.svg|450]]
+<img src="/uni/anhaenge/produktionsfunktion-k.svg" alt="Produktionsfunktion K" width="450" style="max-width:100%;height:auto">
 - **1. Ableitung > 0**: mehr ${}K{}$ --> immer **mehr** ${}Y{}$
 - **2. Ableitung < 0**: jede zusätzliche Einheit ${}K{}$ bringt **weniger** zusätzliches ${}Y{}$ --> **abnehmende Grenzerträge** (weil Exponent ${}\frac{1}{3}<1{}$, analog für ${}H{}$)
 
@@ -148,7 +148,7 @@ Mit ${}h=\frac{H}{L}{}$ (da ${}H=h\cdot L{}$), ${}k=\frac{K}{L}{}$ (Kapital pro 
 --> ${}y{}$ ist **höher**, wenn ${}A{}$, ${}k{}$ oder ${}h{}$ höher sind
 --> ${}y{}$ **wächst**, wenn sich die Technologie verbessert, die Kapitalintensität steigt oder das durchschnittliche Humankapital steigt
 
-![[PK-Produktionsfunktion Verschiebung.svg]]
+<img src="/uni/anhaenge/pk-produktionsfunktion-verschiebung.svg" alt="PK-Produktionsfunktion Verschiebung" style="max-width:100%;height:auto">
 - Technologischer Fortschritt (${}A_1>A_0{}$) und höhere Kapitalintensität (${}k_1>k_0{}$) **verschieben die PK-Produktionsfunktion nach oben** --> bei gleichem ${}h{}$ höheres ${}y{}$
 
 # Anwendungen
@@ -225,7 +225,7 @@ $$g_y\approx g_A+\tfrac{2}{3}\,g_h+\tfrac{1}{3}\,g_k$$
 
 
 
-![[Wachstumszerlegung USA.svg]]
+<img src="/uni/anhaenge/wachstumszerlegung-usa.svg" alt="Wachstumszerlegung USA" style="max-width:100%;height:auto">
 
 
 | | Anwendung 1 | Anwendung 2 |
