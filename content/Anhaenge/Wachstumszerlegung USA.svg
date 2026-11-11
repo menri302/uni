@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="-apple-system, Helvetica, Arial, sans-serif"><rect width="700" height="400" rx="12" fill="#ffffff"/>
+<line x1="70" y1="320" x2="670" y2="320" stroke="#E8E6DF"/><text x="62" y="324" text-anchor="end" font-size="12" fill="#444441">0 %</text>
+<line x1="70" y1="250" x2="670" y2="250" stroke="#E8E6DF"/><text x="62" y="254" text-anchor="end" font-size="12" fill="#444441">1 %</text>
+<line x1="70" y1="180" x2="670" y2="180" stroke="#E8E6DF"/><text x="62" y="184" text-anchor="end" font-size="12" fill="#444441">2 %</text>
+<line x1="70" y1="110" x2="670" y2="110" stroke="#E8E6DF"/><text x="62" y="114" text-anchor="end" font-size="12" fill="#444441">3 %</text>
+<line x1="70" y1="40" x2="670" y2="40" stroke="#E8E6DF"/><text x="62" y="44" text-anchor="end" font-size="12" fill="#444441">4 %</text>
+<rect x="92.0" y="300.4" width="56" height="19.6" fill="#7F77DD"/>
+<text x="120.0" y="314.2" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,28</text>
+<rect x="92.0" y="238.1" width="56" height="62.3" fill="#5DA34A"/>
+<text x="120.0" y="273.2" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,89</text>
+<rect x="92.0" y="72.2" width="56" height="165.9" fill="#E8913A"/>
+<text x="120.0" y="159.1" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">2,37</text>
+<text x="120.0" y="66.2" text-anchor="middle" font-size="13" font-weight="600" fill="#2C2C2A">3,54</text>
+<text x="120.0" y="338" text-anchor="middle" font-size="12" fill="#444441">1950–59</text>
+<rect x="192.0" y="308.1" width="56" height="11.9" fill="#7F77DD"/>
+<rect x="192.0" y="245.8" width="56" height="62.3" fill="#5DA34A"/>
+<text x="220.0" y="280.9" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,89</text>
+<rect x="192.0" y="91.8" width="56" height="154.0" fill="#E8913A"/>
+<text x="220.0" y="172.8" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">2,20</text>
+<text x="220.0" y="85.8" text-anchor="middle" font-size="13" font-weight="600" fill="#2C2C2A">3,26</text>
+<text x="220.0" y="338" text-anchor="middle" font-size="12" fill="#444441">1960–69</text>
+<rect x="292.0" y="319.3" width="56" height="0.7" fill="#7F77DD"/>
+<rect x="292.0" y="257.7" width="56" height="61.6" fill="#5DA34A"/>
+<text x="320.0" y="292.5" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,88</text>
+<rect x="292.0" y="172.3" width="56" height="85.4" fill="#E8913A"/>
+<text x="320.0" y="219.0" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">1,22</text>
+<text x="320.0" y="166.3" text-anchor="middle" font-size="13" font-weight="600" fill="#2C2C2A">2,11</text>
+<text x="320.0" y="338" text-anchor="middle" font-size="12" fill="#444441">1970–79</text>
+<rect x="392.0" y="299.0" width="56" height="21.0" fill="#7F77DD"/>
+<text x="420.0" y="313.5" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,30</text>
+<rect x="392.0" y="238.8" width="56" height="60.2" fill="#5DA34A"/>
+<text x="420.0" y="272.9" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,86</text>
+<rect x="392.0" y="207.3" width="56" height="31.5" fill="#E8913A"/>
+<text x="420.0" y="227.1" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,45</text>
+<text x="420.0" y="201.3" text-anchor="middle" font-size="13" font-weight="600" fill="#2C2C2A">1,61</text>
+<text x="420.0" y="338" text-anchor="middle" font-size="12" fill="#444441">1980–89</text>
+<rect x="492.0" y="294.8" width="56" height="25.2" fill="#7F77DD"/>
+<text x="520.0" y="311.4" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,36</text>
+<rect x="492.0" y="236.0" width="56" height="58.8" fill="#5DA34A"/>
+<text x="520.0" y="269.4" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,84</text>
+<rect x="492.0" y="175.1" width="56" height="60.9" fill="#E8913A"/>
+<text x="520.0" y="209.5" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,87</text>
+<text x="520.0" y="169.1" text-anchor="middle" font-size="13" font-weight="600" fill="#2C2C2A">2,07</text>
+<text x="520.0" y="338" text-anchor="middle" font-size="12" fill="#444441">1990–99</text>
+<rect x="592.0" y="306.7" width="56" height="13.3" fill="#7F77DD"/>
+<rect x="592.0" y="237.4" width="56" height="69.3" fill="#5DA34A"/>
+<text x="620.0" y="276.0" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">0,99</text>
+<rect x="592.0" y="147.1" width="56" height="90.3" fill="#E8913A"/>
+<text x="620.0" y="196.2" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="600">1,29</text>
+<text x="620.0" y="141.1" text-anchor="middle" font-size="13" font-weight="600" fill="#2C2C2A">2,47</text>
+<text x="620.0" y="338" text-anchor="middle" font-size="12" fill="#444441">2000–07</text>
+<line x1="70" y1="320" x2="670" y2="320" stroke="#444441" stroke-width="1.2"/>
+<rect x="430" y="40" width="14" height="14" fill="#E8913A"/><text x="450" y="52" font-size="12" fill="#2C2C2A">Technologie A</text>
+<rect x="430" y="60" width="14" height="14" fill="#5DA34A"/><text x="450" y="72" font-size="12" fill="#2C2C2A">Sachkapital k</text>
+<rect x="430" y="80" width="14" height="14" fill="#7F77DD"/><text x="450" y="92" font-size="12" fill="#2C2C2A">Humankapital h</text>
+<text x="350.0" y="380" text-anchor="middle" font-size="12" fill="#888780">Beiträge zum jährlichen Wachstum des BIP pro Arbeitsstunde in den USA (in Prozentpunkten)</text></svg>

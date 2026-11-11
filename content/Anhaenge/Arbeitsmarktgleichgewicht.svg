@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 440" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<defs><marker id="ax" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 1.5L8 5L0 8.5z" fill="#2B2B29"/></marker><marker id="mu" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2E9E6E"/></marker><marker id="md" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#D2493F"/></marker><marker id="mi" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2B29"/></marker></defs>
+<rect width="1080" height="440" fill="#FFFFFF"/>
+<text x="270" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#2B2B29">Gleichgewicht</text>
+<line x1="90" y1="360" x2="466.0" y2="360" stroke="#2B2B29" stroke-width="1.3" marker-end="url(#ax)"/>
+<line x1="90" y1="360" x2="90" y2="54.0" stroke="#2B2B29" stroke-width="1.3" marker-end="url(#ax)"/>
+<text x="78" y="60.0" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#2B2B29">w</text>
+<text x="462.0" y="384.0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#2B2B29">L</text>
+<polyline points="90,220.8 270.0,220.8 270.0,360" fill="none" stroke="#BDBBB3" stroke-width="1.1" stroke-dasharray="3 4"/>
+<text x="80" y="225.8" text-anchor="end" font-size="14" fill="#75736C">w*</text>
+<text x="270.0" y="384" text-anchor="middle" font-size="14" fill="#75736C">L*</text>
+<polyline points="90.0,104.8 468.0,348.4" fill="none" stroke="#3B78C2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="90.0,336.8 457.2,100.2" fill="none" stroke="#E08A2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="474.0" y="338.4" text-anchor="end" font-size="14" font-weight="600" fill="#3B78C2">AN</text>
+<text x="457.2" y="90.2" text-anchor="end" font-size="14" font-weight="600" fill="#E08A2E">AA</text>
+<circle cx="270.0" cy="220.8" r="6" fill="#FFFFFF" stroke="#2B2B29" stroke-width="3"/>
+<text x="284.0" y="225.8" text-anchor="start" font-size="15" font-weight="700" fill="#2B2B29">E</text>
+<text x="270" y="420" text-anchor="middle" font-size="13" fill="#75736C">Kein Druck auf den Lohn · keine Arbeitslosigkeit</text>
+<text x="770" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#2B2B29">Lohn über w*</text>
+<polygon points="680.0,162.8 860.0,162.8 770.0,220.8" fill="#F8DCD9" opacity="1"/>
+<line x1="590" y1="360" x2="966.0" y2="360" stroke="#2B2B29" stroke-width="1.3" marker-end="url(#ax)"/>
+<line x1="590" y1="360" x2="590" y2="54.0" stroke="#2B2B29" stroke-width="1.3" marker-end="url(#ax)"/>
+<text x="578" y="60.0" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#2B2B29">w</text>
+<text x="962.0" y="384.0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#2B2B29">L</text>
+<polyline points="590,220.8 770.0,220.8 770.0,360" fill="none" stroke="#BDBBB3" stroke-width="1.1" stroke-dasharray="3 4"/>
+<text x="580" y="225.8" text-anchor="end" font-size="14" fill="#BDBBB3">w*</text>
+<text x="770.0" y="384" text-anchor="middle" font-size="14" fill="#BDBBB3">L*</text>
+<polyline points="590,162.8 680.0,162.8 680.0,360" fill="none" stroke="#BDBBB3" stroke-width="1.1" stroke-dasharray="3 4"/>
+<text x="680.0" y="384" text-anchor="middle" font-size="14" fill="#3B78C2">L<tspan font-size="10" dy="4">N</tspan></text>
+<polyline points="590,162.8 860.0,162.8 860.0,360" fill="none" stroke="#BDBBB3" stroke-width="1.1" stroke-dasharray="3 4"/>
+<text x="580" y="167.8" text-anchor="end" font-size="14" fill="#75736C">w̃</text>
+<text x="860.0" y="384" text-anchor="middle" font-size="14" fill="#E08A2E">L<tspan font-size="10" dy="4">A</tspan></text>
+<polyline points="590.0,104.8 968.0,348.4" fill="none" stroke="#3B78C2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="590.0,336.8 957.2,100.2" fill="none" stroke="#E08A2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="974.0" y="338.4" text-anchor="end" font-size="14" font-weight="600" fill="#3B78C2">AN</text>
+<text x="957.2" y="90.2" text-anchor="end" font-size="14" font-weight="600" fill="#E08A2E">AA</text>
+<line x1="680.0" y1="146.8" x2="860.0" y2="146.8" stroke="#D2493F" stroke-width="2"/>
+<line x1="680.0" y1="140.8" x2="680.0" y2="152.8" stroke="#D2493F" stroke-width="2"/>
+<line x1="860.0" y1="140.8" x2="860.0" y2="152.8" stroke="#D2493F" stroke-width="2"/>
+<text x="770.0" y="134.8" text-anchor="middle" font-size="14" font-weight="700" fill="#D2493F">Arbeitslosigkeit</text>
+<text x="770.0" y="116.8" text-anchor="middle" font-size="12.5" font-weight="500" fill="#D2493F">= Angebotsüberhang</text>
+<line x1="932.0" y1="168.6" x2="932.0" y2="209.2" stroke="#D2493F" stroke-width="2.6" stroke-linecap="round" marker-end="url(#md)"/>
+<text x="946.4" y="188.9" text-anchor="start" font-size="12.5" font-weight="500" fill="#D2493F">Druck nach unten</text>
+<circle cx="680.0" cy="162.8" r="6" fill="#FFFFFF" stroke="#3B78C2" stroke-width="3"/>
+<circle cx="860.0" cy="162.8" r="6" fill="#FFFFFF" stroke="#E08A2E" stroke-width="3"/>
+<text x="770" y="420" text-anchor="middle" font-size="13" fill="#75736C">AA > AN → Lohn sinkt zurück Richtung w*</text>
+</svg>

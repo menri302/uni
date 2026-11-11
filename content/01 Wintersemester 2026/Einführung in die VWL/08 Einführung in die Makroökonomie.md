@@ -1,4 +1,4 @@
-# Definition
+	# Definition
 > [!NOTE] Makroökomnomie
 > Lehre von der Ökonomie als Ganzes (Lehre der gesamtwirtschftlichen Aktivität)
 

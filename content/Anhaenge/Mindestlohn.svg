@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 450" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<defs><marker id="ax" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 1.5L8 5L0 8.5z" fill="#2B2B29"/></marker><marker id="mu" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2E9E6E"/></marker><marker id="md" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#D2493F"/></marker><marker id="mi" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2B29"/></marker></defs>
+<rect width="660" height="450" fill="#FFFFFF"/>
+<polygon points="237.5,156.0 452.5,156.0 345.0,216.0" fill="#F8DCD9" opacity="1"/>
+<line x1="130" y1="360" x2="576.0" y2="360" stroke="#2B2B29" stroke-width="1.3" marker-end="url(#ax)"/>
+<line x1="130" y1="360" x2="130" y2="44.0" stroke="#2B2B29" stroke-width="1.3" marker-end="url(#ax)"/>
+<text x="118" y="50.0" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#2B2B29">w</text>
+<text x="572.0" y="384.0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#2B2B29">L</text>
+<polyline points="130,216.0 345.0,216.0 345.0,360" fill="none" stroke="#BDBBB3" stroke-width="1.1" stroke-dasharray="3 4"/>
+<text x="120" y="221.0" text-anchor="end" font-size="14" fill="#BDBBB3">w*</text>
+<text x="345.0" y="384" text-anchor="middle" font-size="14" fill="#BDBBB3">L*</text>
+<polyline points="130,156.0 237.5,156.0 237.5,360" fill="none" stroke="#BDBBB3" stroke-width="1.1" stroke-dasharray="3 4"/>
+<text x="237.5" y="384" text-anchor="middle" font-size="14" fill="#3B78C2">Beschäftigte</text>
+<line x1="452.5" y1="156.0" x2="452.5" y2="360" stroke="#BDBBB3" stroke-width="1.1" stroke-dasharray="3 4"/>
+<text x="452.5" y="384" text-anchor="middle" font-size="14" fill="#E08A2E">Arbeitswillige</text>
+<line x1="130" y1="156.0" x2="560.0" y2="156.0" stroke="#D2493F" stroke-width="2.4"/>
+<text x="120" y="161.0" text-anchor="end" font-size="14" font-weight="700" fill="#D2493F">Mindestlohn</text>
+<polyline points="130.0,96.0 581.5,348.0" fill="none" stroke="#3B78C2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="130.0,336.0 568.6,91.2" fill="none" stroke="#E08A2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="587.5" y="336.0" text-anchor="end" font-size="14" font-weight="600" fill="#3B78C2">Arbeitsnachfrage</text>
+<text x="568.6" y="79.2" text-anchor="end" font-size="14" font-weight="600" fill="#E08A2E">Arbeitsangebot</text>
+<line x1="237.5" y1="138.0" x2="452.5" y2="138.0" stroke="#D2493F" stroke-width="2"/>
+<line x1="237.5" y1="132.0" x2="237.5" y2="144.0" stroke="#D2493F" stroke-width="2"/>
+<line x1="452.5" y1="132.0" x2="452.5" y2="144.0" stroke="#D2493F" stroke-width="2"/>
+<text x="345.0" y="126.0" text-anchor="middle" font-size="15" font-weight="700" fill="#D2493F">Arbeitslosigkeit</text>
+<circle cx="237.5" cy="156.0" r="6" fill="#FFFFFF" stroke="#3B78C2" stroke-width="3"/>
+<circle cx="452.5" cy="156.0" r="6" fill="#FFFFFF" stroke="#E08A2E" stroke-width="3"/>
+<text x="330.0" y="438" text-anchor="middle" font-size="13" fill="#75736C">Bindender Mindestlohn > w* → Arbeitsnachfrage &lt; Arbeitsangebot → Arbeitslosigkeit</text>
+</svg>

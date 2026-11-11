@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<defs><marker id="ax" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 1.5L8 5L0 8.5z" fill="#2B2B29"/></marker><marker id="mu" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2E9E6E"/></marker><marker id="md" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#D2493F"/></marker><marker id="mi" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2B2B29"/></marker></defs>
+<rect width="640" height="430" fill="#FFFFFF"/>
+<line x1="150" y1="350" x2="566.0" y2="350" stroke="#2B2B29" stroke-width="1.3" marker-end="url(#ax)"/>
+<line x1="150" y1="350" x2="150" y2="44.0" stroke="#2B2B29" stroke-width="1.3" marker-end="url(#ax)"/>
+<text x="138" y="50.0" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#2B2B29">w</text>
+<text x="562.0" y="374.0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#2B2B29">L</text>
+<polyline points="150,205.0 310.0,205.0 310.0,350" fill="none" stroke="#BDBBB3" stroke-width="1.1" stroke-dasharray="3 4"/>
+<text x="140" y="210.0" text-anchor="end" font-size="14" fill="#75736C">Marktlohn₁ = 50</text>
+<text x="310.0" y="374" text-anchor="middle" font-size="14" fill="#75736C">100</text>
+<polyline points="150,277.5 424.2,277.5 424.2,350" fill="none" stroke="#BDBBB3" stroke-width="1.1" stroke-dasharray="3 4"/>
+<text x="140" y="282.5" text-anchor="end" font-size="14" fill="#75736C">Marktlohn₂</text>
+<text x="424.2" y="374" text-anchor="middle" font-size="14" fill="#75736C">Menge₂</text>
+<polyline points="150.0,103.5 510.0,331.9" fill="none" stroke="#3B78C2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="338.8" y1="234.0" x2="399.6" y2="271.7" stroke="#2B2B29" stroke-width="2.6" stroke-linecap="round" marker-end="url(#mi)"/>
+<circle cx="310.0" cy="205.0" r="6" fill="#FFFFFF" stroke="#3B78C2" stroke-width="3"/>
+<circle cx="424.2" cy="277.5" r="6" fill="#FFFFFF" stroke="#3B78C2" stroke-width="3"/>
+<text x="171.6" y="95.5" text-anchor="start" font-size="14" font-weight="600" fill="#3B78C2">Wert des GPA = Arbeitsnachfrage</text>
+<text x="320.0" y="418" text-anchor="middle" font-size="13" fill="#75736C">Firma stellt ein, bis Wert des GPA = Marktlohn · Lohn ↓ → mehr Arbeiter</text>
+</svg>
