@@ -94,10 +94,14 @@ Für den Vergleich der Entwicklung des Lebensstandards **im Zeitverlauf**: **rea
 1. **Wissen**
 	- über Produktionsprozesse (z.B. wie man einen Computer baut)
 	- wie man Aufgaben effektiver erledigen kann
+	- weitere: Erfindungen, Patente, Management, Software
 2. **Effizienz der Produktion**
 	- Fähigkeit der Gesellschaft, ihre Ausstattung ${}H{}$ und ${}K{}$ **effizient zu nutzen**
 	- Bsp.: Baubeschränkungen (Flächennutzungsvorschriften) hindern Arbeitnehmer daran, dorthin zu ziehen, wo sie am produktivsten wären --> geringere Effizienz
 	- USA: BIP ohne solche Beschränkungen ca. **3,7 % höher** (Hsieh und Moretti, 2019)
+	- weitere: **Korruption**, Institutionen/Rechtssicherheit, Regulierung/Bürokratie, Fehlallokation, Wettbewerb, Infrastruktur-Qualität, politische Stabilität
+
+**Messrest** (landet nur in ${}A{}$, weil ${}A{}$ das Residuum ist): Bildungsqualität, Gesundheit, Qualität des Kapitals, Geografie/Klima, Statistikfehler, Kultur/Vertrauen
 
 ### Bildung: ${}h{}$ oder ${}A{}$?
 | | ${}h{}$ (Humankapital) | ${}A{}$ (Technologie/Wissen) |
@@ -113,14 +117,7 @@ Für den Vergleich der Entwicklung des Lebensstandards **im Zeitverlauf**: **rea
 	2. Bildung hilft, Technologie zu **übernehmen** und zu nutzen
 	3. **Messproblem**: ${}h{}$ = nur Anzahl Schuljahre --> Unterschiede in der **Bildungsqualität** landen als Rest in ${}A{}$
 
-### Was fällt alles in ${}A{}$?
-| Gruppe        | Beispiele                                                                                                                                     |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Wissen**    | Erfindungen, Patente, Produktionsverfahren, Management, Software                                                                              |
-| **Effizienz** | Institutionen/Rechtssicherheit, Korruption, Regulierung/Bürokratie, Fehlallokation, Wettbewerb, Infrastruktur-Qualität, politische Stabilität |
-| **Messrest**  | Bildungsqualität, Gesundheit, Qualität des Kapitals, Geografie/Klima, Statistikfehler, Kultur/Vertrauen                                       |
-
-> [!NOTE] Merksatz
+> [!NOTE] Merksatz ${}A{}$
 > ${}A{}$ = **Wissen + Effizienz**. Da ${}A{}$ nicht direkt messbar ist und als **Residuum** berechnet wird, enthält es in der Praxis **alles**, was ${}h{}$ und ${}k{}$ nicht erklären ("Maß unserer Unwissenheit")
 
 

@@ -21,8 +21,10 @@ UNI = VAULT / "01 Universität"
 ATTACHMENTS = VAULT / "03 Sonstige/Anhaenge"
 SUBFOLDER = "Zusammenfassung"
 # Fächer, die NICHT auf die Website sollen (Ordnername wie im Vault)
-EXCLUDE = {
-    "Analysis für WiWi",
+EXCLUDE = set()
+# Fächer, von denen NUR die genannten Notizen online gehen (Dateiname im Zusammenfassung-Ordner)
+ONLY = {
+    "Analysis für WiWi": {"Folgen und Reihen.md"},
 }
 # Fächer, die auf der Website anders heißen sollen als im Vault ("Vault-Name": "Website-Name")
 DISPLAY_NAMES = {}
@@ -223,7 +225,10 @@ def main():
         course_rel = Path(nfc(str(source.parent.relative_to(UNI))))
         course_rel = course_rel.with_name(DISPLAY_NAMES.get(course_rel.name, course_rel.name))
         course_notes = []
+        allowed = ONLY.get(nfc(source.parent.name))
         for note in sorted(source.rglob("*.md")):
+            if allowed is not None and nfc(note.name) not in allowed:
+                continue
             target = CONTENT / course_rel / nfc(str(note.relative_to(source)))
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(fix_math_dollars(note.read_text(encoding="utf-8")), encoding="utf-8")
